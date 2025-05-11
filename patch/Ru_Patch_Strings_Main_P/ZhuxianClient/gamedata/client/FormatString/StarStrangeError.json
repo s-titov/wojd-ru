@@ -1,13 +1,13 @@
 {
     "1": {
-        "text": "穿戴数量已达当前等级上限",
+        "text": "Количество экипировки достигло лимита для текущего уровня",
         "metadata": {
             "flags": "SHOWTYPE_FLOAT",
             "note": ""
         }
     },
     "2": {
-        "text": "等级过低",
+        "text": "Недостаточный уровень",
         "metadata": {
             "flags": "SHOWTYPE_FLOAT",
             "note": ""
