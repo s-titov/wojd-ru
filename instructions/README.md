@@ -6,7 +6,14 @@
 
 ## Как поправить перевод
 
-Текста на перевод лежат в папке [FormatString](../patch/Ru_Patch_Strings_Main_P/ZhuxianClient/gamedata/client/FormatString). 
+Текста на перевод лежат в двух местах: 
+
+1. [FormatString](../patch/Ru_Patch_Strings_Main_P/ZhuxianClient/gamedata/client/FormatString)
+2. [Game.csv](../patch/Locres/Game.csv)
+
+
+### FormatString
+
 Данные представлены в формате "ключ = значение". 
 <br>Этот формат важно сохранять, игра будет искать перевод по ключу.
 
@@ -20,6 +27,22 @@
 - // - комментарий
 
 Оригинальные китайские языковые файлы находятся [original](../original)
+
+### Game.csv
+
+// TODO
+
+Это распакованный .locres файл.
+
+Распаковка locres
+```bash
+.\UnrealLocres.exe export Game.locres -f csv
+```
+
+Запаковка locres (применение переводов из csv)
+```bash
+.\UnrealLocres.exe import Game.locres Game.csv -f csv
+```
 
 ## Как самостоятельно запаковать
 
