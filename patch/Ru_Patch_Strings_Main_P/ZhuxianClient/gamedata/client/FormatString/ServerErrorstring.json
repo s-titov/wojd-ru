@@ -1,499 +1,499 @@
 {
     "1": {
-        "text": "通用错误",
+        "text": "Общая ошибка",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "2": {
-        "text": "超时",
+        "text": "Тайм-аут",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "3": {
-        "text": "数据库未找到数据",
+        "text": "Данные не найдены в базе",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "4": {
-        "text": "数据异常",
+        "text": "Ошибка данных",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "5": {
-        "text": "服务器通信错误",
+        "text": "Ошибка соединения с сервером",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "6": {
-        "text": "网络连接错误",
+        "text": "Ошибка сетевого соединения",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "7": {
-        "text": "服务器没有响应",
+        "text": "Нет ответа от сервера",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "8": {
-        "text": "输入含有敏感内容",
+        "text": "Ввод содержит запрещённый контент",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "9": {
-        "text": "协议解析错误",
+        "text": "Ошибка разбора протокола",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "11": {
         "text": "",
         "metaData": {
             "flags": "0",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "12": {
-        "text": "客户端参数错误",
+        "text": "Ошибка параметров клиента",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "13": {
-        "text": "请稍后再试",
+        "text": "Пожалуйста, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "17": {
-        "text": "操作过于频繁，请稍后再试",
+        "text": "Слишком частые действия, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "19": {
-        "text": "正事要紧，先不要闲逛啦",
+        "text": "Сначала займись делом, не отвлекайся на прогулки",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "20": {
-        "text": "模板数据配置错误",
+        "text": "Ошибка конфигурации шаблонных данных",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "21": {
-        "text": "数据解析错误",
+        "text": "Ошибка обработки данных",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "22": {
-        "text": "系统繁忙",
+        "text": "Система перегружена",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "23": {
-        "text": "该功能暂时不可用",
+        "text": "Функция временно недоступна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "24": {
-        "text": "该服务暂时不可用",
+        "text": "Сервис временно недоступен",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "25": {
-        "text": "操作失败，请稍候再试",
+        "text": "Не удалось выполнить операцию, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "27": {
-        "text": "该功能正在维护",
+        "text": "Функция находится на техническом обслуживании",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "100": {
-        "text": "目标已经在队伍中",
+        "text": "Цель уже в составе группы",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "101": {
-        "text": "你已经处在队伍中",
+        "text": "Вы уже состоите в группе",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "102": {
-        "text": "对方拒绝了你的组队邀请",
+        "text": "Игрок отклонил ваше приглашение в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "103": {
-        "text": "未找到队伍",
+        "text": "Группа не найдена",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "104": {
-        "text": "队员权限错误",
+        "text": "Ошибка прав участника группы",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "105": {
-        "text": "队伍人数已满",
+        "text": "Группа уже заполнена",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "106": {
-        "text": "队伍请求未回应",
+        "text": "Приглашение в группу осталось без ответа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "107": {
-        "text": "团队转为小队失败",
+        "text": "Не удалось преобразовать рейд в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "108": {
-        "text": "队伍邀请未回应",
+        "text": "Приглашение в группу осталось без ответа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "109": {
-        "text": "切换到队长所在分线失败",
+        "text": "Не удалось перейти на канал, где находится лидер",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "110": {
-        "text": "当前状态无法加入队员",
+        "text": "В текущем состоянии нельзя принять участника",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "112": {
-        "text": "公告内容过长",
+        "text": "Слишком длинный текст объявления",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "113": {
-        "text": "分配阶段无法重新组队",
+        "text": "Нельзя пересобрать группу во время распределения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "114": {
-        "text": "对方处于队伍分配阶段，无法重新组队",
+        "text": "Игрок находится на этапе распределения, пересбор невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "115": {
-        "text": "队长拒绝了你的申请",
+        "text": "Лидер отклонил вашу заявку",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "116": {
-        "text": "队长未回应你的申请",
+        "text": "Лидер не ответил на вашу заявку",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "117": {
-        "text": "投票踢人理由内容过长",
+        "text": "Причина голосования за исключение слишком длинная",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "118": {
-        "text": "在投票中，无法发起",
+        "text": "Нельзя инициировать — уже идёт голосование",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "119": {
-        "text": "投票结束",
+        "text": "Голосование завершено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "120": {
-        "text": "没有投票权",
+        "text": "У вас нет права голоса",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "121": {
-        "text": "投票冷却中",
+        "text": "Голосование ещё на перезарядке",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "122": {
-        "text": "投票结果：同意踢人",
+        "text": "Результат голосования: за исключение",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "123": {
-        "text": "投票结果：反对踢人",
+        "text": "Результат голосования: против исключения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "124": {
-        "text": "投票结果：由于发起者主动离队而终止投票",
+        "text": "Голосование отменено: инициатор покинул группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "125": {
-        "text": "投票结果：由于被投票者主动离队而终止投票",
+        "text": "Голосование отменено: выбранный игрок покинул группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "126": {
-        "text": "投票结果：等待投票超时",
+        "text": "Голосование отменено: время ожидания истекло",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "127": {
-        "text": "投票结果：所有人都已经投票，同意和反对各占一半",
+        "text": "Голосование завершено: поровну голосов «за» и «против»",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "128": {
-        "text": "未找到该队友",
+        "text": "Игрок не найден в группе",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "129": {
-        "text": "不是副本队伍",
+        "text": "Это не группа для подземелья",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "130": {
-        "text": "重复投票",
+        "text": "Голос уже был отдан",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "131": {
-        "text": "对方拒绝了你的申请",
+        "text": "Игрок отклонил вашу заявку",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "132": {
-        "text": "其他队员处于离线状态，无法投票",
+        "text": "Другие участники находятся в офлайне, голосование невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "133": {
-        "text": "没有其他队友，无法发起投票",
+        "text": "Нет других участников — голосование невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "134": {
-        "text": "正在匹配中，无法操作",
+        "text": "В процессе подбора, действие невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "135": {
-        "text": "对方正在忙碌中，请稍后再试",
+        "text": "Игрок занят, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "136": {
-        "text": "竞技玩法中无法离开队伍",
+        "text": "Нельзя выйти из группы в соревновательном режиме",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "138": {
-        "text": "无法邀请黑名单中的玩家组队",
+        "text": "Нельзя пригласить игрока из чёрного списка в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "139": {
-        "text": "正在匹配确认中，无法操作",
+        "text": "Идёт подтверждение подбора, действие недоступно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "140": {
-        "text": "对方正在匹配确认中，请稍后再试",
+        "text": "Игрок подтверждает подбор, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "141": {
-        "text": "没有发布公告权限",
+        "text": "Нет прав на публикацию объявления",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "142": {
-        "text": "目标处在组队切磋状态，无法组队",
+        "text": "Цель находится в режиме дуэли, нельзя пригласить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "143": {
-        "text": "您处在组队切磋状态，无法组队",
+        "text": "Вы находитесь в режиме дуэли, нельзя вступить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "144": {
-        "text": "对方在副本中，无法组队",
+        "text": "Игрок в подземелье, невозможно пригласить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "145": {
-        "text": "您处在副本中，无法组队",
+        "text": "Вы в подземелье, нельзя вступить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "146": {
-        "text": "对方队伍配置发生变化，组队失败",
+        "text": "Конфигурация группы цели изменилась, приглашение не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "147": {
-        "text": "被邀请玩家与队内玩家位于不同副本中，组队失败",
+        "text": "Приглашённый игрок и группа находятся в разных подземельях",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "148": {
-        "text": "队伍处于跨服状态，组队失败",
+        "text": "Группа находится в межсерверном режиме, приглашение не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "149": {
-        "text": "对方已离线，组队失败",
+        "text": "Игрок не в сети, приглашение не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "150": {
-        "text": "物品分配已超时",
+        "text": "Время распределения предметов истекло",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "151": {
-        "text": "物品分配已超时",
+        "text": "Время распределения предметов истекло",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "152": {
