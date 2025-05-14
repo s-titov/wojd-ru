@@ -1,2501 +1,2501 @@
 {
     "1": {
-        "text": "通用错误",
+        "text": "Общая ошибка",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "2": {
-        "text": "超时",
+        "text": "Тайм-аут",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "3": {
-        "text": "数据库未找到数据",
+        "text": "Данные не найдены в базе",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "4": {
-        "text": "数据异常",
+        "text": "Ошибка данных",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "5": {
-        "text": "服务器通信错误",
+        "text": "Ошибка соединения с сервером",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "6": {
-        "text": "网络连接错误",
+        "text": "Ошибка сетевого соединения",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "7": {
-        "text": "服务器没有响应",
+        "text": "Нет ответа от сервера",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "8": {
-        "text": "输入含有敏感内容",
+        "text": "Ввод содержит запрещённый контент",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "9": {
-        "text": "协议解析错误",
+        "text": "Ошибка разбора протокола",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "11": {
         "text": "",
         "metaData": {
             "flags": "0",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "12": {
-        "text": "客户端参数错误",
+        "text": "Ошибка параметров клиента",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "13": {
-        "text": "请稍后再试",
+        "text": "Пожалуйста, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "17": {
-        "text": "操作过于频繁，请稍后再试",
+        "text": "Слишком частые действия, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "19": {
-        "text": "正事要紧，先不要闲逛啦",
+        "text": "Сначала займись делом, не отвлекайся на прогулки",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "20": {
-        "text": "模板数据配置错误",
+        "text": "Ошибка конфигурации шаблонных данных",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "21": {
-        "text": "数据解析错误",
+        "text": "Ошибка обработки данных",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "22": {
-        "text": "系统繁忙",
+        "text": "Система перегружена",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "23": {
-        "text": "该功能暂时不可用",
+        "text": "Функция временно недоступна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "24": {
-        "text": "该服务暂时不可用",
+        "text": "Сервис временно недоступен",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "25": {
-        "text": "操作失败，请稍候再试",
+        "text": "Не удалось выполнить операцию, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "27": {
-        "text": "该功能正在维护",
+        "text": "Функция находится на техническом обслуживании",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "通用"
+            "note": "Общее"
         }
     },
     "100": {
-        "text": "目标已经在队伍中",
+        "text": "Цель уже в составе группы",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "101": {
-        "text": "你已经处在队伍中",
+        "text": "Вы уже состоите в группе",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "102": {
-        "text": "对方拒绝了你的组队邀请",
+        "text": "Игрок отклонил ваше приглашение в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "103": {
-        "text": "未找到队伍",
+        "text": "Группа не найдена",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "104": {
-        "text": "队员权限错误",
+        "text": "Ошибка прав участника группы",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "105": {
-        "text": "队伍人数已满",
+        "text": "Группа уже заполнена",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "106": {
-        "text": "队伍请求未回应",
+        "text": "Приглашение в группу осталось без ответа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "107": {
-        "text": "团队转为小队失败",
+        "text": "Не удалось преобразовать рейд в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "108": {
-        "text": "队伍邀请未回应",
+        "text": "Приглашение в группу осталось без ответа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "109": {
-        "text": "切换到队长所在分线失败",
+        "text": "Не удалось перейти на канал, где находится лидер",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "110": {
-        "text": "当前状态无法加入队员",
+        "text": "В текущем состоянии нельзя принять участника",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "112": {
-        "text": "公告内容过长",
+        "text": "Слишком длинный текст объявления",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "113": {
-        "text": "分配阶段无法重新组队",
+        "text": "Нельзя пересобрать группу во время распределения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "114": {
-        "text": "对方处于队伍分配阶段，无法重新组队",
+        "text": "Игрок находится на этапе распределения, пересбор невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "115": {
-        "text": "队长拒绝了你的申请",
+        "text": "Лидер отклонил вашу заявку",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "116": {
-        "text": "队长未回应你的申请",
+        "text": "Лидер не ответил на вашу заявку",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "117": {
-        "text": "投票踢人理由内容过长",
+        "text": "Причина голосования за исключение слишком длинная",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "118": {
-        "text": "在投票中，无法发起",
+        "text": "Нельзя инициировать — уже идёт голосование",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "119": {
-        "text": "投票结束",
+        "text": "Голосование завершено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "120": {
-        "text": "没有投票权",
+        "text": "У вас нет права голоса",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "121": {
-        "text": "投票冷却中",
+        "text": "Голосование ещё на перезарядке",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "122": {
-        "text": "投票结果：同意踢人",
+        "text": "Результат голосования: за исключение",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "123": {
-        "text": "投票结果：反对踢人",
+        "text": "Результат голосования: против исключения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "124": {
-        "text": "投票结果：由于发起者主动离队而终止投票",
+        "text": "Голосование отменено: инициатор покинул группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "125": {
-        "text": "投票结果：由于被投票者主动离队而终止投票",
+        "text": "Голосование отменено: выбранный игрок покинул группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "126": {
-        "text": "投票结果：等待投票超时",
+        "text": "Голосование отменено: время ожидания истекло",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "127": {
-        "text": "投票结果：所有人都已经投票，同意和反对各占一半",
+        "text": "Голосование завершено: поровну голосов «за» и «против»",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "128": {
-        "text": "未找到该队友",
+        "text": "Игрок не найден в группе",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "129": {
-        "text": "不是副本队伍",
+        "text": "Это не группа для подземелья",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "130": {
-        "text": "重复投票",
+        "text": "Голос уже был отдан",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "131": {
-        "text": "对方拒绝了你的申请",
+        "text": "Игрок отклонил вашу заявку",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "132": {
-        "text": "其他队员处于离线状态，无法投票",
+        "text": "Другие участники находятся в офлайне, голосование невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "133": {
-        "text": "没有其他队友，无法发起投票",
+        "text": "Нет других участников — голосование невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "134": {
-        "text": "正在匹配中，无法操作",
+        "text": "В процессе подбора, действие невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "135": {
-        "text": "对方正在忙碌中，请稍后再试",
+        "text": "Игрок занят, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "136": {
-        "text": "竞技玩法中无法离开队伍",
+        "text": "Нельзя выйти из группы в соревновательном режиме",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "138": {
-        "text": "无法邀请黑名单中的玩家组队",
+        "text": "Нельзя пригласить игрока из чёрного списка в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "139": {
-        "text": "正在匹配确认中，无法操作",
+        "text": "Идёт подтверждение подбора, действие недоступно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "140": {
-        "text": "对方正在匹配确认中，请稍后再试",
+        "text": "Игрок подтверждает подбор, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "141": {
-        "text": "没有发布公告权限",
+        "text": "Нет прав на публикацию объявления",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "142": {
-        "text": "目标处在组队切磋状态，无法组队",
+        "text": "Цель находится в режиме дуэли, нельзя пригласить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "143": {
-        "text": "您处在组队切磋状态，无法组队",
+        "text": "Вы находитесь в режиме дуэли, нельзя вступить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "144": {
-        "text": "对方在副本中，无法组队",
+        "text": "Игрок в подземелье, невозможно пригласить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "145": {
-        "text": "您处在副本中，无法组队",
+        "text": "Вы в подземелье, нельзя вступить в группу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "146": {
-        "text": "对方队伍配置发生变化，组队失败",
+        "text": "Конфигурация группы цели изменилась, приглашение не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "147": {
-        "text": "被邀请玩家与队内玩家位于不同副本中，组队失败",
+        "text": "Приглашённый игрок и группа находятся в разных подземельях",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "148": {
-        "text": "队伍处于跨服状态，组队失败",
+        "text": "Группа находится в межсерверном режиме, приглашение не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "149": {
-        "text": "对方已离线，组队失败",
+        "text": "Игрок не в сети, приглашение не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "150": {
-        "text": "物品分配已超时",
+        "text": "Время распределения предметов истекло",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "151": {
-        "text": "物品分配已超时",
+        "text": "Время распределения предметов истекло",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группы"
         }
     },
     "152": {
-        "text": "物品已分配",
+        "text": "Предмет распределён",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "153": {
-        "text": "无队伍分配权限",
+        "text": "Нет прав на распределение в группе",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "154": {
-        "text": "已经参与过Roll点",
+        "text": "Вы уже участвовали в броске костей",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "155": {
-        "text": "Roll点超时",
+        "text": "Время броска костей истекло",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "156": {
-        "text": "选择物品非拍卖状态",
+        "text": "Выбранный предмет не подлежит аукциону",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "157": {
-        "text": "最高出价者不能继续竞价",
+        "text": "Лидер по ставке не может продолжать торги",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "158": {
-        "text": "不合理出价",
+        "text": "Недопустимая ставка",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "159": {
-        "text": "队伍分配设置错误",
+        "text": "Ошибка в настройке распределения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "160": {
-        "text": "试玩状态下无法参与队伍的竞拍",
+        "text": "В демо-режиме нельзя участвовать в групповом аукционе",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队"
+            "note": "Группа"
         }
     },
     "200": {
-        "text": "已经在副本中",
+        "text": "Вы уже находитесь в подземелье",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "201": {
-        "text": "副本名字非法",
+        "text": "Недопустимое имя подземелья",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "202": {
-        "text": "服务器同时开启的副本房间数量已达上限，请稍后再试",
+        "text": "Максимум комнат подземелий на сервере достигнут. Попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "203": {
-        "text": "副本已经开启",
+        "text": "Подземелье уже началось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "204": {
-        "text": "不是副本队伍的队长",
+        "text": "Вы не являетесь лидером группы подземелья",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "205": {
-        "text": "副本信息检测不通过",
+        "text": "Информация о подземелье не прошла проверку",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "206": {
-        "text": "副本玩家数量已满",
+        "text": "Максимальное число игроков в подземелье достигнуто",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "207": {
-        "text": "玩家职业不符合副本要求",
+        "text": "Класс персонажа не соответствует требованиям подземелья",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "208": {
-        "text": "次数不足",
+        "text": "Недостаточно попыток входа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "209": {
-        "text": "副本已经关闭",
+        "text": "Подземелье закрыто",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "210": {
-        "text": "副本惩罚",
+        "text": "Наказание подземелья",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "211": {
-        "text": "没有权限",
+        "text": "Нет прав доступа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "212": {
-        "text": "副本未开启，仙长还需多等待些时日",
+        "text": "Подземелье ещё не открыто, мудрый наставник, прошу подождать",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "215": {
-        "text": "队伍状态不符",
+        "text": "Статус группы не соответствует требованиям",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "216": {
-        "text": "未完成所需任务",
+        "text": "Не выполнено необходимое задание",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "217": {
-        "text": "你将在60秒后离开副本",
+        "text": "Вы покинете подземелье через 60 секунд",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "218": {
-        "text": "重回队伍，你不会离开副本了",
+        "text": "Вы вернулись в группу и не покинете подземелье",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "219": {
-        "text": "进度不匹配",
+        "text": "Прогресс не совпадает",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "222": {
-        "text": "首领战期间禁止进入副本",
+        "text": "Нельзя войти в подземелье во время битвы с боссом",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "227": {
-        "text": "队伍人数发生变化",
+        "text": "Состав группы изменился",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "228": {
-        "text": "对方拒绝了职责确认",
+        "text": "Соперник отклонил подтверждение роли",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "231": {
-        "text": "匹配队伍有玩家不在线",
+        "text": "В группе есть офлайн-игрок",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "232": {
-        "text": "已经在匹配中",
+        "text": "Уже идёт подбор группы",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "233": {
-        "text": "在跨服中",
+        "text": "Находитесь в межсерверной зоне",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "239": {
-        "text": "处于禁止匹配状态",
+        "text": "Вы находитесь в состоянии, не допускающем подбор",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "247": {
-        "text": "已经在竞技玩法匹配中",
+        "text": "Уже идёт подбор в PvP-режим",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "248": {
-        "text": "有玩家未进行职责确认，取消匹配操作",
+        "text": "Кто-то не подтвердил роль — подбор отменён",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "291": {
-        "text": "因在副本中离开队伍，您已离开副本",
+        "text": "Вы покинули подземелье, так как вышли из группы",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "292": {
-        "text": "有队员位于其他副本，进入副本失败",
+        "text": "Кто-то из группы в другом подземелье — вход невозможен",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "293": {
-        "text": "邀请组队的双方处在不同副本中，无法进行组队邀请",
+        "text": "Нельзя пригласить в группу — игроки в разных подземельях",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "294": {
-        "text": "因队伍解散导致离开副本",
+        "text": "Подземелье покинуто из-за распада группы",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "295": {
-        "text": "因团队解散导致离开副本",
+        "text": "Подземелье покинуто из-за распада команды",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "296": {
-        "text": "在任务副本的队伍中，不可离开队伍",
+        "text": "Нельзя выйти из группы в подземелье задания",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "300": {
-        "text": "账号或密码错误",
+        "text": "Неверный логин или пароль",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "302": {
-        "text": "服务器玩家已满",
+        "text": "Сервер переполнен",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "303": {
-        "text": "禁止机器人登录",
+        "text": "Вход для ботов запрещён",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "304": {
         "text": "SDK 304",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "305": {
         "text": "SDK 305",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "306": {
-        "text": "服务器内部错误",
+        "text": "Внутренняя ошибка сервера",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "307": {
-        "text": "创建机器人失败",
+        "text": "Не удалось создать бота",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "308": {
-        "text": "创建机器人账号失败",
+        "text": "Не удалось создать аккаунт для бота",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "309": {
-        "text": "重复登录",
+        "text": "Повторный вход",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "310": {
-        "text": "登录状态错误",
+        "text": "Ошибка состояния входа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "311": {
-        "text": "获取账号信息错误",
+        "text": "Ошибка получения данных аккаунта",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "312": {
-        "text": "获取角色列表出错",
+        "text": "Ошибка при получении списка персонажей",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "314": {
-        "text": "分配角色失败",
+        "text": "Ошибка при назначении персонажа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "315": {
-        "text": "给角色分配世界失败",
+        "text": "Ошибка при назначении мира персонажу",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "317": {
-        "text": "角色信息错误",
+        "text": "Ошибка в данных персонажа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "318": {
-        "text": "游戏线号错误",
+        "text": "Ошибка номера игрового канала",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "319": {
-        "text": "未找到目标地图",
+        "text": "Целевая карта не найдена",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "320": {
-        "text": "角色映射错误",
+        "text": "Ошибка отображения персонажа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "321": {
-        "text": "读取角色数据错误",
+        "text": "Ошибка чтения данных персонажа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "322": {
-        "text": "玩家位置信息错误",
+        "text": "Ошибка данных о местоположении игрока",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "323": {
-        "text": "玩家进入世界错误",
+        "text": "Ошибка входа игрока в мир",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "324": {
-        "text": "随机名字库错误",
+        "text": "Ошибка базы случайных имён",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "325": {
-        "text": "被系统管理员踢出",
+        "text": "Вы были исключены системным администратором",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "329": {
-        "text": "当前状态禁止登出",
+        "text": "В текущем состоянии выход невозможен",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "330": {
-        "text": "扣除物品失败",
+        "text": "Не удалось списать предмет",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "331": {
-        "text": "您已被封号",
+        "text": "Ваш аккаунт заблокирован",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "332": {
-        "text": "当前不宜离开此地",
+        "text": "Сейчас нельзя покидать это место",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "335": {
-        "text": "您的游戏时长已耗尽，部分操作会受到限制，请及时充值",
+        "text": "Ваше игровое время истекло. Некоторые действия будут ограничены. Пожалуйста, пополните счёт",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "登录"
+            "note": "Вход"
         }
     },
     "400": {
-        "text": "检测到网络异常，请尝试再次交互",
+        "text": "Обнаружены сетевые неполадки. Повторите попытку",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "npc服务"
+            "note": "Служба NPC"
         }
     },
     "401": {
-        "text": "检测到网络异常，请稍后再试",
+        "text": "Обнаружены сетевые неполадки. Пожалуйста, попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "npc服务"
+            "note": "Служба NPC"
         }
     },
     "402": {
-        "text": "超过交互距离",
+        "text": "Превышено расстояние взаимодействия",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "npc服务"
+            "note": "Служба NPC"
         }
     },
     "403": {
-        "text": "已达最大对话人数",
+        "text": "Достигнуто максимальное число собеседников",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "npc服务"
+            "note": "Служба NPC"
         }
     },
     "404": {
-        "text": "功能暂未开启",
+        "text": "Функция временно недоступна",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "npc服务"
+            "note": "Служба NPC"
         }
     },
     "407": {
-        "text": "仅能使用团队/小队成员召唤的补天锤",
+        "text": "Можно использовать только Молот Небес, призванный членом группы или команды",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "npc服务"
+            "note": "Служба NPC"
         }
     },
     "450": {
-        "text": "包裹银两不足，无法在世界频道发言",
+        "text": "Недостаточно серебра в инвентаре — нельзя писать в мировой чат",
         "metaData": {
             "flags": "SHOWTYPE_CHATLOG",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "451": {
-        "text": "非法消息，无法发言",
+        "text": "Недопустимое сообщение — отправка невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "452": {
-        "text": "消息太频繁，请稍后再发",
+        "text": "Сообщения отправляются слишком часто. Попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "453": {
-        "text": "你已被禁言",
+        "text": "Вы были заглушены",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "454": {
-        "text": "在非大世界中发送地图频道消息",
+        "text": "Вы пытаетесь отправить сообщение в канал карты вне большого мира",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "455": {
-        "text": "感谢您的反馈，后续将由相关工作人员进行处理",
+        "text": "Спасибо за отзыв. Его передадут соответствующим специалистам",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "456": {
-        "text": "跨服时无法使用帮派频道",
+        "text": "Во время межсерверной игры нельзя использовать канал гильдии",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "457": {
-        "text": "试玩状态下无法使用公共频道",
+        "text": "В пробной версии нельзя использовать публичные каналы",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聊天"
+            "note": "Чат"
         }
     },
     "600": {
-        "text": "首领战中无法发起踢人",
+        "text": "Во время битвы с боссом нельзя инициировать голосование на исключение",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "组队踢人补充"
+            "note": "Группа/исключение"
         }
     },
     "601": {
-        "text": "副本内无法转为团队",
+        "text": "В подземелье нельзя сменить формат на командный",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队踢人补充"
+            "note": "Группа/исключение"
         }
     },
     "602": {
-        "text": "队友正在进入副本，暂时无法踢出，请稍后尝试",
+        "text": "Товарищ по команде входит в подземелье, временно нельзя исключить. Попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队踢人补充"
+            "note": "Группа/исключение"
         }
     },
     "603": {
-        "text": "跨服房间中，无法转移副本队伍队长或团长",
+        "text": "В межсерверной комнате нельзя передавать лидерство в подземелье",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队踢人补充"
+            "note": "Группа/исключение"
         }
     },
     "604": {
-        "text": "大秘境副本中无法发起踢人",
+        "text": "В высокоуровневом подземелье нельзя инициировать исключение",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "组队踢人补充"
+            "note": "Группа/исключение"
         }
     },
     "1001": {
-        "text": "没有合适的目标",
+        "text": "Нет подходящей цели",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1002": {
-        "text": "需要面向目标",
+        "text": "Нужно быть лицом к цели",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1003": {
-        "text": "超出距离范围无法施放",
+        "text": "Слишком далеко для применения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1004": {
-        "text": "该技能无法在飞行中使用",
+        "text": "Это умение нельзя использовать в полёте",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1005": {
-        "text": "该技能正在调息当中",
+        "text": "Умение на перезарядке",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1006": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1007": {
-        "text": "该技能无法在移动中使用",
+        "text": "Это умение нельзя использовать в движении",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1008": {
-        "text": "该技能只能在地面上使用",
+        "text": "Это умение можно использовать только на земле",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1009": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1010": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1011": {
-        "text": "当前能量不足无法施放",
+        "text": "Недостаточно энергии для применения умения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1012": {
-        "text": "与召唤物距离过远",
+        "text": "Слишком далеко от призванного существа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1013": {
-        "text": "无法对当前目标释放",
+        "text": "Нельзя применить умение к текущей цели",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1014": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1015": {
-        "text": "周围没有合适的目标",
+        "text": "Рядом нет подходящих целей",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1016": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1017": {
-        "text": "没有当前目标的视野",
+        "text": "Нет обзора на текущую цель",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1018": {
-        "text": "尚未装备载具，请前往商城装配",
+        "text": "Транспорт не экипирован. Перейдите в магазин для установки",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1019": {
-        "text": "尚未装备载具，请前往商城装配",
+        "text": "Транспорт не экипирован. Перейдите в магазин для установки",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1021": {
-        "text": "当前地图无法使用该技能",
+        "text": "На этой карте это умение недоступно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1022": {
-        "text": "当前状态无法御剑",
+        "text": "В текущем состоянии нельзя использовать полёт на мече",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1023": {
-        "text": "无法对目标使用该技能",
+        "text": "Нельзя использовать это умение на цели",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1024": {
-        "text": "当前状态无法使用该技能",
+        "text": "Нельзя использовать это умение в текущем состоянии",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1025": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1026": {
-        "text": "当前无法使用闯入技能",
+        "text": "Сейчас нельзя использовать умение вторжения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1027": {
-        "text": "团队剩余复活次数不足",
+        "text": "Недостаточно оставшихся попыток воскрешения у команды",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1028": {
-        "text": "请在领取悬魂令之后使用",
+        "text": "Пожалуйста, используйте после получения Приказа Блуждающей Души",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1029": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1030": {
-        "text": "当前地图不可进行悬魂",
+        "text": "На этой карте нельзя использовать Блуждающую Душу",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1101": {
-        "text": "没有合适的目标-客户端",
+        "text": "Нет подходящей цели (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1102": {
-        "text": "需要面向目标-客户端",
+        "text": "Нужно быть лицом к цели (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1103": {
-        "text": "超出距离范围无法施放-客户端",
+        "text": "Слишком далеко для применения (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1104": {
-        "text": "该技能无法在飞行中使用-客户端",
+        "text": "Это умение нельзя использовать в полёте (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1105": {
-        "text": "该技能正在调息当中-客户端",
+        "text": "Умение на перезарядке (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1106": {
-        "text": "技能无法释放-客户端",
+        "text": "Умение не может быть применено (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1107": {
-        "text": "该技能无法在移动中使用-客户端",
+        "text": "Это умение нельзя использовать в движении (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1108": {
-        "text": "该技能只能在地面上使用-客户端",
+        "text": "Это умение можно использовать только на земле (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1109": {
-        "text": "未知的技能类型-客户端",
+        "text": "Неизвестный тип умения (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1110": {
-        "text": "当前状态无法使用技能",
+        "text": "Нельзя использовать умения в текущем состоянии",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1111": {
-        "text": "该技能已被禁用",
+        "text": "Это умение отключено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1112": {
-        "text": "该技能未激活",
+        "text": "Это умение не активно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1113": {
-        "text": "该技能已失效",
+        "text": "Это умение больше не действует",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1114": {
-        "text": "技能无法释放",
+        "text": "Умение не может быть применено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1115": {
-        "text": "当前地图无法使用该技能-客户端",
+        "text": "На этой карте нельзя использовать это умение (клиент)",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1116": {
-        "text": "该技能未激活",
+        "text": "Это умение не активно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1117": {
-        "text": "当前体力不足无法施放",
+        "text": "Недостаточно выносливости для применения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1118": {
-        "text": "当前气力不足无法释放",
+        "text": "Недостаточно энергии для применения",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1119": {
-        "text": "没有当前目标的视野",
+        "text": "Нет обзора на текущую цель",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1120": {
-        "text": "没有当前目标的视野",
+        "text": "Нет обзора на текущую цель",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1121": {
-        "text": "队友已经闯入对局，无法继续闯入",
+        "text": "Соратник уже вторгся в сражение, дальнейшее вторжение невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "技能 具体定义见EZCAbilityErrorCode"
+            "note": "Умения (см. EZCAbilityErrorCode)"
         }
     },
     "1190": {
-        "text": "当前状态无法切换镜头模式",
+        "text": "В текущем состоянии нельзя переключать режим камеры",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "镜头模式"
+            "note": "Режим камеры"
         }
     },
     "1200": {
-        "text": "角色数量已达上限",
+        "text": "Достигнуто максимальное количество персонажей",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1201": {
-        "text": "创建角色时角色ID重复",
+        "text": "При создании персонажа возник дубликат ID",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1202": {
-        "text": "该角色名已存在",
+        "text": "Имя персонажа уже занято",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1203": {
-        "text": "删除角色出错",
+        "text": "Ошибка при удалении персонажа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1204": {
-        "text": "仙长莫要着急，先提升等级再来参与",
+        "text": "Не спешите, наставник. Повышайте уровень, чтобы участвовать",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1205": {
-        "text": "角色名字非法",
+        "text": "Недопустимое имя персонажа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1206": {
-        "text": "角色职业出错",
+        "text": "Ошибка в классе персонажа",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1207": {
-        "text": "当前状态无法使用璇玑阵",
+        "text": "В текущем состоянии нельзя использовать Матрицу Сюаньцзи",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1208": {
-        "text": "该传送点尚未解锁",
+        "text": "Эта точка телепортации ещё не разблокирована",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1209": {
-        "text": "角色名或表字包含非中文字符",
+        "text": "Имя или прозвище персонажа содержит не-китайские символы",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1210": {
-        "text": "请输入2至8个中文字符",
+        "text": "Введите от 2 до 8 китайских иероглифов",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1211": {
-        "text": "角色名或表字包含敏感词",
+        "text": "Имя или прозвище персонажа содержит запрещённые слова",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1213": {
-        "text": "剩余复活次数不足",
+        "text": "Недостаточно оставшихся попыток воскрешения",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1214": {
-        "text": "复活尚在冷却中",
+        "text": "Воскрешение ещё на перезарядке",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1215": {
-        "text": "璇玑点不足",
+        "text": "Недостаточно очков Сюаньцзи",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1216": {
-        "text": "新名字已存在",
+        "text": "Новое имя уже занято",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1217": {
-        "text": "旧名字不存在",
+        "text": "Старое имя не найдено",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1218": {
-        "text": "无效输入",
+        "text": "Недопустимый ввод",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1219": {
-        "text": "无效姓名输入",
+        "text": "Недопустимое имя",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1220": {
-        "text": "无效表字输入",
+        "text": "Недопустимое прозвище",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1221": {
-        "text": "修改的姓名与当前的相同",
+        "text": "Новое имя совпадает с текущим",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1222": {
-        "text": "修改的表名与当前的相同",
+        "text": "Новое прозвище совпадает с текущим",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1226": {
-        "text": "改名冷却未结束",
+        "text": "Переименование ещё на перезарядке",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1227": {
-        "text": "跨服中，改名功能关闭",
+        "text": "Переименование отключено в межсерверной зоне",
         "metaData": {
             "flags": "SHOWTYPE_CHATLOG | SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1228": {
-        "text": "银两不足，无法进行传送",
+        "text": "Недостаточно серебра — телепортация невозможна",
         "metaData": {
             "flags": "SHOWTYPE_CHATLOG | SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "1229": {
-        "text": "好友信息未加载，改名失败",
+        "text": "Не загружена информация о друзьях — переименование не удалось",
         "metaData": {
             "flags": "SHOWTYPE_CHATLOG | SHOWTYPE_FLOAT",
-            "note": "角色"
+            "note": "Персонажи"
         }
     },
     "4500": {
-        "text": "此任务为单人任务，需要退出队伍才能继续进行。",
+        "text": "Это задание выполняется в одиночку. Выйдите из группы, чтобы продолжить",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "4502": {
-        "text": "今日副本尚未开启，请明天再来挑战。",
+        "text": "Сегодня подземелье недоступно. Попробуйте завтра",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "4503": {
-        "text": "队友处于跨服中，进入副本失败",
+        "text": "Кто-то из группы в межсерверной зоне — вход в подземелье невозможен",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "4504": {
-        "text": "有队员位于战场，进入副本失败",
+        "text": "Кто-то из группы находится на поле боя — вход в подземелье невозможен",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "4509": {
-        "text": "服务器未开启跨服功能，无法匹配，请稍后再试",
+        "text": "Межсерверная функция отключена. Подбор невозможен. Попробуйте позже",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "4512": {
-        "text": "队友正在大秘境副本中，禁止进入",
+        "text": "Товарищ по группе уже в высокоуровневом подземелье — вход запрещён",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "副本"
+            "note": "Подземелье"
         }
     },
     "4800": {
-        "text": "组队状态下无法与智能队友进入副本",
+        "text": "В группе нельзя заходить в подземелье с ИИ-напарниками",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "ai副本"
+            "note": "AI-подземелье"
         }
     },
     "4801": {
-        "text": "拒绝匹配确认后才能进入副本",
+        "text": "Нужно отклонить подтверждение подбора, чтобы войти в подземелье",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "ai副本"
+            "note": "AI-подземелье"
         }
     },
     "5000": {
-        "text": "包裹空间不足",
+        "text": "Недостаточно места в инвентаре",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5001": {
-        "text": "仓库银两已满",
+        "text": "Склад серебра заполнен",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5002": {
-        "text": "仓库银两不足",
+        "text": "Недостаточно серебра в складе",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5003": {
-        "text": "银两不足",
+        "text": "Недостаточно серебра",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5004": {
-        "text": "剩余空间不足，无法卸下包裹",
+        "text": "Недостаточно свободного места для снятия предметов",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5005": {
-        "text": "你所拥有的道具不足",
+        "text": "Недостаточно нужных предметов",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5013": {
-        "text": "该物品对应的休闲动作已解锁",
+        "text": "Связанный с предметом жест уже разблокирован",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5014": {
-        "text": "包裹空间不足",
+        "text": "Недостаточно места в инвентаре",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5015": {
-        "text": "物品使用等级不足",
+        "text": "Недостаточный уровень для использования предмета",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5016": {
-        "text": "不符合物品性别限制",
+        "text": "Предмет не подходит по полу персонажа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5017": {
-        "text": "不符合物品门派限制",
+        "text": "Предмет не подходит для вашей школы/класса",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5018": {
-        "text": "超过携带上限",
+        "text": "Превышен лимит переносимых предметов",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5019": {
-        "text": "包裹银两溢出",
+        "text": "Превышен лимит серебра в инвентаре",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5020": {
-        "text": "该物品不可销毁",
+        "text": "Этот предмет нельзя уничтожить",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5021": {
-        "text": "该物品不可出售",
+        "text": "Этот предмет нельзя продать",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5022": {
-        "text": "该物品不可分解",
+        "text": "Этот предмет нельзя разобрать",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5023": {
-        "text": "该物品不可放入仓库",
+        "text": "Этот предмет нельзя поместить в склад",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5024": {
-        "text": "该物品不可锁定",
+        "text": "Этот предмет нельзя заблокировать",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5025": {
-        "text": "仓库满了",
+        "text": "Склад заполнен",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5026": {
-        "text": "装备强化失败",
+        "text": "Улучшение снаряжения не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5027": {
-        "text": "强化成功",
+        "text": "Улучшение прошло успешно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5028": {
-        "text": "强化绑定",
+        "text": "После улучшения предмет будет привязан",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5029": {
-        "text": "任务物品无法转移位置",
+        "text": "Предмет задания нельзя перемещать",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5030": {
-        "text": "非任务物品无法放入任务包裹",
+        "text": "Нельзя положить обычный предмет в инвентарь заданий",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5031": {
-        "text": "发奖或物品模板错误",
+        "text": "Ошибка при выдаче награды или шаблона предмета",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5032": {
-        "text": "已学习该配方",
+        "text": "Вы уже изучили этот рецепт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5033": {
-        "text": "包裹处于锁定状态",
+        "text": "Инвентарь заблокирован",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5034": {
-        "text": "花灯或孔明灯的可编辑文字超长",
+        "text": "Текст для небесного фонарика или фонаря слишком длинный",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5035": {
-        "text": "方案名称过长，请输入8个中文字符以内的名称",
+        "text": "Название слишком длинное. Введите не более 8 китайских символов",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5036": {
-        "text": "已拥有该外观",
+        "text": "У вас уже есть такой облик",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5039": {
-        "text": "物品正在冷却中",
+        "text": "Предмет на перезарядке",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5040": {
-        "text": "已装备同类型护符",
+        "text": "Уже экипирован амулет этого типа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5041": {
-        "text": "代币已达获取上限，无法使用该物品",
+        "text": "Достигнут лимит получения жетонов — использование предмета невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5046": {
-        "text": "今天炼化次数已达上限",
+        "text": "Достигнуто ограничение по количеству попыток炼化 за день",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5047": {
-        "text": "跳转地图失败",
+        "text": "Не удалось перейти на карту",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5051": {
-        "text": "包裹空间不足无法替换",
+        "text": "Недостаточно места в инвентаре для замены",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5052": {
-        "text": "物品拆分失败",
+        "text": "Не удалось разделить предмет",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5053": {
-        "text": "未达到配方要求等级",
+        "text": "Не соответствует требуемому уровню рецепта",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5055": {
-        "text": "体型不符,无法使用",
+        "text": "Несоответствие телосложения — использование невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5056": {
-        "text": "体型不符,无法穿戴",
+        "text": "Несоответствие телосложения — нельзя надеть",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5057": {
-        "text": "当前缝纫技能等级不足，无法学习该配方",
+        "text": "Недостаточный уровень навыка шитья — невозможно выучить рецепт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5058": {
-        "text": "当前炼药技能等级不足，无法学习该配方",
+        "text": "Недостаточный уровень навыка алхимии — невозможно выучить рецепт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5059": {
-        "text": "当前烹饪技能等级不足，无法学习该配方",
+        "text": "Недостаточный уровень навыка кулинарии — невозможно выучить рецепт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5060": {
-        "text": "当前手工艺技能等级不足，无法学习该配方",
+        "text": "Недостаточный уровень навыка ремесла — невозможно выучить рецепт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5061": {
-        "text": "当前雕刻技能等级不足，无法学习该配方",
+        "text": "Недостаточный уровень навыка резьбы — невозможно выучить рецепт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5062": {
-        "text": "当前锻造技能等级不足，无法学习该配方",
+        "text": "Недостаточный уровень навыка кузнечного дела — невозможно выучить рецепт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5063": {
-        "text": "诛仙古玉不足",
+        "text": "Недостаточно древних нефритов Чжусянь",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5064": {
-        "text": "当前无法使用该物品",
+        "text": "Сейчас нельзя использовать этот предмет",
         "metaData": {
             "flags": "SHOWTYPE_MESSAGEBOX | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5065": {
-        "text": "待维修装备发生变动，请重试",
+        "text": "Оборудование на ремонте изменилось — попробуйте снова",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5066": {
-        "text": "该类物品必须全部使用或拆分后使用",
+        "text": "Предметы этого типа нужно использовать полностью или предварительно разделить",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5067": {
-        "text": "带有冷却时间的物品只能单个使用",
+        "text": "Предметы с временем перезарядки можно использовать только по одному",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5076": {
-        "text": "该物品无法批量使用",
+        "text": "Этот предмет нельзя использовать массово",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5084": {
-        "text": "关联灵曜已是等待开启状态",
+        "text": "Связанная Линъяо уже находится в состоянии ожидания активации",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5117": {
-        "text": "请开启包裹扩充栏位后装进行装备操作",
+        "text": "Пожалуйста, откройте дополнительные слоты инвентаря, прежде чем экипировать",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5118": {
-        "text": "您已装备空间更大的包裹，无法直接替换",
+        "text": "У вас уже экипирован рюкзак с большим объёмом — замена невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5119": {
-        "text": "物品无法使用",
+        "text": "Невозможно использовать предмет",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5120": {
-        "text": "物品移动失败",
+        "text": "Не удалось переместить предмет",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5121": {
-        "text": "任务包裹空间不足",
+        "text": "Недостаточно места в инвентаре заданий",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5122": {
-        "text": "星魄包裹空间不足",
+        "text": "Недостаточно места в инвентаре звёздных душ",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5127": {
-        "text": "法宝品质低于当前装备法宝，无法切换",
+        "text": "Качество нового артефакта ниже текущего — замена невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5128": {
-        "text": "该包裹不能进行物品拆分",
+        "text": "Разделение предметов в этом инвентаре невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5129": {
-        "text": "栏位不足，拆分失败",
+        "text": "Недостаточно слотов — разделение не удалось",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5130": {
-        "text": "已解锁相同或更高档位，无法使用",
+        "text": "Уже разблокирован этот или более высокий уровень — использование невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5139": {
-        "text": "九霄行纪暂未开启，请提升角色等级至24级",
+        "text": "Путь Девяти Небес ещё недоступен — достигните 24 уровня",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5140": {
-        "text": "当前使用元气丹超过元气储存上限",
+        "text": "Использование пилюли превысит лимит энергии",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5142": {
-        "text": "获取银两已达每日上限",
+        "text": "Достигнут дневной лимит получения серебра",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5146": {
-        "text": "气血已满，不需要使用丹药",
+        "text": "Жизнь восстановлена — использование пилюли не требуется",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5147": {
-        "text": "元气已满，不需要使用丹药",
+        "text": "Энергия восстановлена — использование пилюли не требуется",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5150": {
-        "text": "家园包裹空间不足",
+        "text": "Недостаточно места в инвентаре дома",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5151": {
-        "text": "星魄包裹物品无法进行转移",
+        "text": "Предмет из инвентаря звёздных душ нельзя переместить",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5152": {
-        "text": "非星魄物品无法放入星魄包裹",
+        "text": "Нельзя поместить не-звёздный предмет в инвентарь звёздных душ",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5153": {
-        "text": "家园包裹物品无法进行转移",
+        "text": "Предмет из инвентаря дома нельзя переместить",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5154": {
-        "text": "非家园物品无法放入家园包裹",
+        "text": "Нельзя поместить не-домашний предмет в инвентарь дома",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "包裹物品"
+            "note": "Инвентарь и предметы"
         }
     },
     "5143": {
-        "text": "导出时装分享失败",
+        "text": "Не удалось экспортировать внешний вид",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "染色导入导出"
+            "note": "Импорт/экспорт оформления"
         }
     },
     "5144": {
-        "text": "导入时装分享失败",
+        "text": "Не удалось импортировать внешний вид",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "染色导入导出"
+            "note": "Импорт/экспорт оформления"
         }
     },
     "5179": {
-        "text": "捏脸方案名过长",
+        "text": "Имя пресета лица слишком длинное",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "染色导入导出"
+            "note": "Импорт/экспорт оформления"
         }
     },
     "5148": {
-        "text": "跨服状态下无法使用",
+        "text": "Функция недоступна в межсерверной зоне",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
-            "note": "染色导入导出"
+            "note": "Импорт/экспорт оформления"
         }
     },
     "5068": {
-        "text": "聚宝盆功能未解锁",
+        "text": "Функция Котла Сокровищ не разблокирована",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5069": {
-        "text": "已开始聚宝",
+        "text": "Сбор сокровищ уже начат",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5070": {
-        "text": "聚宝金额溢出",
+        "text": "Превышен лимит суммы в Котле Сокровищ",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5071": {
-        "text": "聚宝盆使用次数超出上限",
+        "text": "Превышено количество использований Котла Сокровищ",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5072": {
-        "text": "聚宝盆模式切换失败",
+        "text": "Не удалось переключить режим Котла Сокровищ",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5073": {
-        "text": "未开始聚宝",
+        "text": "Сбор сокровищ не начат",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5074": {
-        "text": "聚宝精华不足",
+        "text": "Недостаточно эссенции для Котла Сокровищ",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5075": {
-        "text": "存储期结束",
+        "text": "Период хранения завершён",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5114": {
-        "text": "已领取对应光球",
+        "text": "Соответствующий светящийся шар уже получен",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5115": {
-        "text": "对应光球未生成",
+        "text": "Светящийся шар ещё не создан",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5116": {
-        "text": "聚宝盆冷却中",
+        "text": "Котёл Сокровищ на перезарядке",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT | SHOWTYPE_MESSAGEBOX",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5126": {
-        "text": "聚宝中，无法切换",
+        "text": "Сбор сокровищ идёт — переключение невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "聚宝盆"
+            "note": "Котёл Сокровищ"
         }
     },
     "5077": {
-        "text": "星盘标记位置已满",
+        "text": "Превышено число меток на Астропанели",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "诸天星盘"
+            "note": "Астропанель"
         }
     },
     "5078": {
-        "text": "当前位置不可标记",
+        "text": "Нельзя установить метку в этом месте",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "诸天星盘"
+            "note": "Астропанель"
         }
     },
     "5079": {
-        "text": "位置未标记，无法删除",
+        "text": "Метка не установлена — удаление невозможно",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "诸天星盘"
+            "note": "Астропанель"
         }
     },
     "5080": {
-        "text": "星盘冷却中，无法传送",
+        "text": "Астропанель на перезарядке — телепортация невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "诸天星盘"
+            "note": "Астропанель"
         }
     },
     "5081": {
-        "text": "位置未标记，无法传送",
+        "text": "Метка не установлена — телепортация невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "诸天星盘"
+            "note": "Астропанель"
         }
     },
     "5082": {
-        "text": "当前状态无法传送",
+        "text": "В текущем состоянии нельзя телепортироваться",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "诸天星盘"
+            "note": "Астропанель"
         }
     },
     "5083": {
-        "text": "当前地图无法传送",
+        "text": "На этой карте телепортация невозможна",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "诸天星盘"
+            "note": "Астропанель"
         }
     },
     "5085": {
-        "text": "红包祝福词太长",
+        "text": "Пожелание в красном конверте слишком длинное",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5086": {
-        "text": "红包口令太长",
+        "text": "Кодовое слово в красном конверте слишком длинное",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5087": {
-        "text": "未解锁平均红包功能",
+        "text": "Функция равного распределения конвертов не разблокирована",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5088": {
-        "text": "未解锁口令红包功能",
+        "text": "Функция кодовых конвертов не разблокирована",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5089": {
-        "text": "未解锁元宝红包功能",
+        "text": "Функция конвертов с юанями не разблокирована",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5090": {
-        "text": "红包金额设置超过上限",
+        "text": "Сумма в конверте превышает допустимый максимум",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5091": {
-        "text": "红包金额设置低于下限",
+        "text": "Сумма в конверте ниже допустимого минимума",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5092": {
-        "text": "红包数量设置超过上限",
+        "text": "Количество конвертов превышает допустимый максимум",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5093": {
-        "text": "红包数量设置低于下限",
+        "text": "Количество конвертов ниже допустимого минимума",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5094": {
-        "text": "货币数量不足",
+        "text": "Недостаточно валюты",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5095": {
-        "text": "您没有加入帮派,无法发送帮派红包",
+        "text": "Вы не состоите в гильдии — нельзя отправить гильдейский конверт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5096": {
-        "text": "您没有加入团队，无法发送团队红包",
+        "text": "Вы не состоите в группе — нельзя отправить групповой конверт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5097": {
-        "text": "红包发送失败",
+        "text": "Не удалось отправить красный конверт",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5098": {
-        "text": "红包参数错误",
+        "text": "Ошибка параметров красного конверта",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5099": {
-        "text": "已穿戴相同类型星魄",
+        "text": "Уже экипирована звёздная душа этого типа",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5100": {
-        "text": "数量超过限制",
+        "text": "Количество превышает лимит",
         "metaData": {
             "flags": "SHOWTYPE_FLOAT",
-            "note": "七宝妙树红包"
+            "note": "Красный конверт Древа Семи Сокровищ"
         }
     },
     "5123": {
