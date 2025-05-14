@@ -105,6 +105,7 @@
 <br>На данный момент (10.05.2025) текста на перевод есть только в двух паках:
 1. ClientGameData.pak <-- почти все здесь
 2. ClientGameData_0_P.pak
+3. pakchunk0-Windows.pak - Game.locres
 
 Для распаковки понадобится бесплатный инструмент [QuickBMS](https://aluigi.altervista.org/quickbms.htm).
 <br>Для него нужен правильный bms скрипт - [unreal_tournament_4_0.4.27e_zhuxian_world_ue5.bms](unreal_tournament_4_0.4.27e_zhuxian_world_ue5.bms). 

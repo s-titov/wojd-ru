@@ -11184,6 +11184,432 @@
             "flags": "SHOWTYPE_FLOAT",
             "note": "麻将"
         }
+    },
+    "20201":{
+        "text":"竞猜对局不存在",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20202":{
+        "text":"竞猜未开启",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20203":{
+        "text":"竞猜项非法",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20204":{
+        "text":"相关人员无法参与竞猜",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20205":{
+        "text":"投注金额溢出",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20206":{
+        "text":"当前未参与观战，无法参与竞猜",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20207":{
+        "text":"您已完成竞猜",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20208":{
+        "text":"参数解析错误",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20209":{
+        "text":"未参与此次竞猜",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20210":{
+        "text":"获取竞猜奖励失败",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20211":{
+        "text":"当前无法获取竞猜代币",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20212":{
+        "text":"已领取竞猜奖励",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20213":{
+        "text":"竞猜异常终止",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20214":{
+        "text":"竞猜失败",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20215":{
+        "text":"非付费用户无法参与竞猜玩法",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20216":{
+        "text":"不满足竞猜条件",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20217":{
+        "text":"竞猜取消",
+        "metaData":{
+            "flags":"SHOWTYPE_FLOAT",
+            "note":"竞猜"
+		}
+    },
+    "20600": {
+        "text": "该名称已存在，试试其他名称吧",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20601": {
+        "text": "您已有角色报名",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20603": {
+        "text": "未到入场时间",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20604": {
+        "text": "本场轮空",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20605": {
+        "text": "本场稍后重赛，请等待比赛开始",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20606": {
+        "text": "不是队长，无法报名",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20607": {
+        "text": "队伍人数超过3人，无法报名",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20608": {
+        "text": "队员离线，无法报名",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20609": {
+        "text": "该玩家已在其他荒陲宗师赛战队中，无法邀请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20610": {
+        "text": "请稍后再尝试邀请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20611": {
+        "text": "邀请超时",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20612": {
+        "text": "对方队伍已解散，看看其他队伍吧",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20613": {
+        "text": "该战队已满员，看看其他队伍吧",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20615": {
+        "text": "该名称与战队现用名相同，无需修改",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20616": {
+        "text": "请使用满足格式要求的战队名称，试试其他名称吧",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20617": {
+        "text": "该申请已过期",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20618": {
+        "text": "该玩家已在其他荒陲宗师赛战队中",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20619": {
+        "text": "暂无权限，只有队长可以同意战队申请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20620": {
+        "text": "该申请已超时",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20621": {
+        "text": "最多发送5条申请，可撤回其他申请再发送",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20622": {
+        "text": "没有组满3人队伍，不能创建战队",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20623": {
+        "text": "该玩家不在同一服务器，无法邀请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20624": {
+        "text": "您的段位不满山螭，无法申请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20625": {
+        "text": "该玩家不在线，无法邀请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20626": {
+        "text": "队伍中有玩家段位不满山螭，无法报名",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20627": {
+        "text": "邀请已发送，请耐心等待对方回应",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20628": {
+        "text": "该玩家段位不满山螭，无法邀请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20629": {
+        "text": "招募需求字数超过15字",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20630": {
+        "text": "发布招募需求太频繁",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20632": {
+        "text": "同一服务器的角色才可创建荒陲宗师赛战队",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20633": {
+        "text": "不在同一服务器，无法申请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20634": {
+        "text": "角色已被禁赛",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20635": {
+        "text": "战队已被禁赛",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20636": {
+        "text": "您的段位不满山螭，无法报名",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20637": {
+        "text": "队伍中有人员已有角色报名",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20638": {
+        "text": "您已有战队",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20639": {
+        "text": "队伍中存在有战队人员",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20640": {
+        "text": "您已加入荒陲宗师赛战队",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20641": {
+        "text": "请输入2至8个中文字符",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20642": {
+        "text": "战队名称只可包含中文字符",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20643": {
+        "text": "您已在跨服状态",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20644": {
+        "text": "该玩家已有角色报名，无法邀请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20645": {
+        "text": "您已有角色报名，无法申请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
+    },
+    "20646": {
+        "text": "该玩家已有角色报名，无法招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "荒陲宗师赛"
+        }
     }
-    
 }
