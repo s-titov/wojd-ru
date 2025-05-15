@@ -22,5 +22,6 @@
 | FZShengSKSJW_0.ufont     | Medium с засечками               | Системное меню (ESC), кнопки, заголовки, etc                          |
 | FZKTK.ufont              | Regular без засечек              | Карта                                                                 |
 | FZLTHK.ufont             | Regular без засечек <br> Строгий | Нашел применение в подсказках <br>внизу айтема (удерживайте alt, etc) |
+| FZFWZhuZiMinchoE.ufont   | ???                              | Шрифт типа в battle pass                                              |
 
 Есть и другие шрифты, здесь перечислены те, что используются в патче.
