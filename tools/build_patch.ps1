@@ -41,33 +41,33 @@ if (Test-Path $hashFile) {
 
 # Step 1-2: Only if hash changed
 if ($currentHash -ne $previousHash) {
-    Write-Host "Game.csv изменился, перезаписываем locres..."
+    Write-Host "··· Game.csv изменился, перезаписываем locres..."
 
     & $unrealLocresExe import "$locresOriginal" "$gameCsv" -f csv
 
     if (Test-Path $locresNew) {
         Copy-Item -Path $locresNew -Destination $locresTarget -Force
     } else {
-        Write-Error "Файл $locresNew не найден после импорта"
+        Write-Error "··· Файл $locresNew не найден после импорта"
         exit 1
     }
 
     $currentHash | Out-File -Encoding ASCII -NoNewline $hashFile
 } else {
-    Write-Host "Game.csv не изменился, пропускаем импорт locres"
+    Write-Host "··· Game.csv не изменился, пропускаем импорт locres"
 }
 
 # Step 3: Упаковка
-Write-Host "Упаковка .pak..."
+Write-Host "··· Упаковка .pak..."
 & $repakExe pack "$pakFolder"
 
 # Step 4: Копирование .pak
 if (Test-Path $pakOutput) {
     Copy-Item -Path $pakOutput -Destination $pakFinal -Force
-    Write-Host "Файл .pak успешно скопирован в папку игры"
+    Write-Host "··· Файл .pak успешно скопирован в папку игры"
 } else {
-    Write-Error "Файл $pakOutput не найден после упаковки"
+    Write-Error "··· Файл $pakOutput не найден после упаковки"
     exit 1
 }
 
-Write-Host "Работа скрипта завершена"
+Write-Host "··· Работа скрипта завершена"
