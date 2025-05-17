@@ -27,7 +27,7 @@ $locresNew = "$locresOriginal.new"
 $locresTarget = Join-Path $root "patch\Ru_Patch_Strings_Main_P\ZhuxianClient\Content\Localization\Game\zh-Hans\Game.locres"
 $pakFolder = Join-Path $root "patch\Ru_Patch_Strings_Main_P"
 $pakOutput = "$pakFolder.pak"
-$hashFile = "$PSScriptRoot\last_csv_hash.txt"
+$hashFile = "$PSScriptRoot\build_patch_hash.txt"
 $pakFinal = "$gamePath\ZXSJ\Game\ZhuxianClient\Content\Paks\Ru_Patch_Strings_Main_P.pak"
 
 # Calculate current CSV hash
