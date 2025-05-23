@@ -30,10 +30,22 @@ if (-not (Test-Path $outputDir)) {
 }
 
 # Обработка всех .pak файлов, кроме содержащих Ru_Patch
-Get-ChildItem -Path $paksDir -Filter *.pak | Where-Object {
+$paks = Get-ChildItem -Path $paksDir -Filter *.pak | Where-Object {
     $_.Name -notmatch "Ru_Patch"
-} | ForEach-Object {
-    $pakFile = $_.FullName
-    Write-Host "`n ···Обрабатывается:" $pakFile
-    & $quickbmsExe -o $bmsScript $pakFile $outputDir
+}
+
+$total = $paks.Count
+$count = 0
+
+foreach ($pak in $paks) {
+    $count++
+    $pakFile = $pak.FullName
+
+    # Обновление прогресс-бара
+    Write-Progress -Activity "Обработка .pak файлов" `
+                   -Status "Файл $count из ${total}: $($pak.Name)" `
+                   -PercentComplete (($count / $total) * 100)
+
+    # Запуск команды без вывода
+    & $quickbmsExe -o $bmsScript $pakFile $outputDir *> $null
 }
