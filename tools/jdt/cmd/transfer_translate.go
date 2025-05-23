@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strings"
 )
 
 func main() {
@@ -101,6 +102,14 @@ func translateTarget(targetCsv string, translations map[string]string) (int, err
 		// if "target" column is empty or translated via TW ru locres
 		if record[2] == "" || record[3] == "tw-auto-translate" {
 			if val, ok := translations[record[0]]; ok {
+				// remove extra "?" from TW ru translate
+				if strings.Contains(val, "?") &&
+					(!strings.Contains(record[1], "？")) {
+					// TODO: Если слева и справа от вопроса не пробел (то есть стоит впритык),
+					//   то реплейсим на пробел, иначе на пустую строку
+					val = strings.ReplaceAll(val, "?", "")
+				}
+
 				record[2] = val
 				record[3] = "tw-auto-translate"
 			} else {
