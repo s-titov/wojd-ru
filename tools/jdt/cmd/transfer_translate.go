@@ -98,11 +98,11 @@ func translateTarget(targetCsv string, translations map[string]string) (int, err
 		if err != nil || len(record) < 3 {
 			continue
 		}
-		// if "target" column is empty
-		if record[2] == "" {
+		// if "target" column is empty or translated via TW ru locres
+		if record[2] == "" || record[3] == "tw-auto-translate" {
 			if val, ok := translations[record[0]]; ok {
 				record[2] = val
-				record[3] = "tw-translate"
+				record[3] = "tw-auto-translate"
 			} else {
 				notTranslatedInc++
 			}
