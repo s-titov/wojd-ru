@@ -23,7 +23,7 @@ func main() {
 	}
 
 	fmt.Println("Successfully translated")
-	fmt.Println(fmt.Sprintf("Not translated count: %d", notTranslatedInc))
+	fmt.Println(fmt.Sprintf("Not translated: %d", notTranslatedInc))
 }
 
 func prepareTranslations(srcCsv string) (map[string]string, error) {
@@ -104,10 +104,8 @@ func translateTarget(targetCsv string, translations map[string]string) (int, err
 			if val, ok := translations[record[0]]; ok {
 				// remove extra "?" from TW ru translate
 				if strings.Contains(val, "?") &&
-					(!strings.Contains(record[1], "？")) {
-					// TODO: Если слева и справа от вопроса не пробел (то есть стоит впритык),
-					//   то реплейсим на пробел, иначе на пустую строку
-					val = strings.ReplaceAll(val, "?", "")
+					(!strings.Contains(record[1], "？") && !strings.Contains(record[1], "?")) {
+					val = smartReplaceQuestionMarks(val)
 				}
 
 				record[2] = val
@@ -139,4 +137,34 @@ func translateTarget(targetCsv string, translations map[string]string) (int, err
 	}
 
 	return notTranslatedInc, nil
+}
+
+// temp solution for fix extra "?" from tw locres
+func smartReplaceQuestionMarks(val string) string {
+	var b strings.Builder
+	runes := []rune(val)
+	for i := 0; i < len(runes); i++ {
+		if runes[i] == '?' || runes[i] == '？' {
+			leftSpace := i > 0 && runes[i-1] == ' '
+			leftNumberSymbol := i > 0 && runes[i-1] == '№' // e.g. №?1
+			leftGreaterSign := i > 0 && runes[i-1] == '>'  // e.g. >?1
+			leftEmpty := i == 0
+
+			rightSpace := i < len(runes)-1 && runes[i+1] == ' '
+			rightPunctuation := i < len(runes)-1 && (runes[i+1] == '.' || runes[i+1] == ',') // . or , after "?"
+			rightEmpty := i == len(runes)-1                                                  // end of sentence
+			rightLessSign := i < len(runes)-1 && runes[i+1] == '<'                           // e.g. 1?<
+
+			if !leftSpace && !rightSpace &&
+				!leftNumberSymbol && !rightPunctuation &&
+				!rightEmpty && !leftEmpty &&
+				!leftGreaterSign && !rightLessSign {
+				b.WriteRune(' ')
+			}
+			// skip
+		} else {
+			b.WriteRune(runes[i])
+		}
+	}
+	return b.String()
 }
