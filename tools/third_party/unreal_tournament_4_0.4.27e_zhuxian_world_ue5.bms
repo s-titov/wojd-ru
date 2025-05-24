@@ -101,6 +101,10 @@ for i = 0 < FILES
 	get SIZE longlong TOC_FILE
 	get ZIP long TOC_FILE
     getdstring HASH 20 TOC_FILE
+
+    if SIZE > 30000000 # 30mb
+        continue NEXT0
+    endif
 	
     math CHUNKS = 0
     math ENCRYPTED = 0
