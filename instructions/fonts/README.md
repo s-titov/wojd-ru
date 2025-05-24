@@ -22,9 +22,9 @@
 | FZShengSKSJW_0.ufont     | Medium с засечками               | Системное меню (ESC), кнопки, заголовки, etc                          |
 | FZKTK.ufont              | Regular без засечек              | Карта                                                                 |
 | FZLTHK.ufont             | Regular без засечек <br> Строгий | Нашел применение в подсказках <br>внизу айтема (удерживайте alt, etc) |
-| FZFWZhuZiMinchoE.ufont   | ???                              | Шрифт типа в battle pass                                              |
-| FZLBK.ufont              | ???                              | Достижения->Подземелья                                                |
-| ZKTQingKJW.ufont         | ???                              | События, арена, профиль                                               |
-| FZXKJW.ufont             | ???                              | Торговец в резиденции, Артефакты->развитие                            |
+| FZFWZhuZiMinchoE.ufont   | Bold, строгий                    | Шрифт типа в battle pass                                              |
+| FZLBK.ufont              | Regular, рукописный              | Достижения->Подземелья                                                |
+| ZKTQingKJW.ufont         | Bold, строгий                    | События, арена, профиль                                               |
+| FZXKJW.ufont             | Regular, строгий                 | Торговец в резиденции, Артефакты->развитие                            |
 
 Есть и другие шрифты, здесь перечислены те, что используются в патче.
