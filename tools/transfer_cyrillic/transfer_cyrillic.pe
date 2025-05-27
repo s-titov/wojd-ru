@@ -1,0 +1,43 @@
+Open($1)  # donor.ttf
+SelectNone()
+
+# Базовая кириллица U+0400–U+04FF
+i = 0x0400
+while (i <= 0x04FF)
+    SelectMore(i)
+    i = i + 1
+endloop
+
+# Доп. кириллица U+0500–U+052F
+i = 0x0500
+while (i <= 0x052F)
+    SelectMore(i)
+    i = i + 1
+endloop
+
+Copy()
+
+Open($2)  # target.ttf
+SelectNone()
+
+# Удалим старую кириллицу
+i = 0x0400
+while (i <= 0x04FF)
+    SelectMore(i)
+    i = i + 1
+endloop
+
+i = 0x0500
+while (i <= 0x052F)
+    SelectMore(i)
+    i = i + 1
+endloop
+
+Clear()
+Paste()
+ScaleToEm(1000, 0)
+Scale(50, 50)
+AutoWidth(10, 1)
+
+Generate($3)
+Quit()
