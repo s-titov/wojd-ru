@@ -1,0 +1,4 @@
+12_CollisionTips = 二尾法师戾气迸发，阻碍前行！
+14_CollisionTips = 三尾突然逃往远方，速速追击！
+11_CollisionTips = 这里被三尾的气息笼罩，无法通过！
+15_CollisionTips = 石桥断裂，无法通过，只能继续向前

@@ -1,0 +1,2 @@
+4_CollisionTips = 前路漫漫，不可贸然前行
+3_CollisionTips = 似有法阵挡住前路……还是先在屋内探索吧

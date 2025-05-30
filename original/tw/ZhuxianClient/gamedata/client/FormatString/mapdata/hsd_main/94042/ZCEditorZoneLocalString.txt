@@ -1,0 +1,13 @@
+17_WarningText = 追击三尾，不可分心。
+18_WarningText = 追击三尾，不可分心。
+19_WarningText = 追击三尾，不可分心。
+20_WarningText = 追击三尾，不可分心。
+22_WarningText = 追击三尾，不可分心。
+24_WarningText = 追击三尾，不可分心。
+25_WarningText = 追击三尾，不可分心。
+32_WarningText = 追击三尾，不可分心。
+26_WarningText = 追击三尾，不可分心。
+27_WarningText = 追击三尾，不可分心。
+31_WarningText = 追击三尾，不可分心。
+28_WarningText = 追击三尾，不可分心。
+23_WarningText = 决战关头，切务小心。

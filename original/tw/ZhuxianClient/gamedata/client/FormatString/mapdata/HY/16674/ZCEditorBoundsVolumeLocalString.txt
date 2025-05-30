@@ -1,0 +1,3 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+138_CollisionTips = 小心落水！
+93_CollisionTips = 小心落水！

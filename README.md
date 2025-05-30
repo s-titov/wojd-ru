@@ -14,7 +14,7 @@
 
 ## Как установить
 
-Берем файл [Ru_Patch_Strings_Main_P.pak](patch/cn/Ru_Patch_Strings_Main_P.pak) и кладем его в папку с игрой по пути:
+Берем файл [~Ru_Patch_Strings_Main_P.pak](patch/cn/~Ru_Patch_Strings_Main_P.pak) и кладем его в папку с игрой по пути:
 ```
 D:\{путь до игры}\ZXSJ\Game\ZhuxianClient\Content\Paks
 ```

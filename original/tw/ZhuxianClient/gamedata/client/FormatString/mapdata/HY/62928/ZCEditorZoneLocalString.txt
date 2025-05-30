@@ -1,0 +1,7 @@
+130_WarningText = 即將迷失
+97_WarningText = 即将迷失
+105_WarningText = 您已进入禁飞区域
+106_WarningText = 即将迷失
+107_WarningText = 您已进入禁飞区域
+98_WarningText = 即将迷失
+104_WarningText = 您已进入禁飞区域

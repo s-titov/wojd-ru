@@ -1,0 +1,12 @@
+41_WarningText = 您已进入禁飞区域
+99_WarningText = 當前為活動區域，為了保證遊戲體驗，已進行位面劃分
+81_WarningText = 陣內有毒 無法久滯
+67_WarningText = 您已進入禁飛區域
+68_WarningText = 您已進入禁飛區域
+69_WarningText = 您已進入禁飛區域
+70_WarningText = 您已進入禁飛區域
+71_WarningText = 您已進入禁飛區域
+72_WarningText = 您已進入禁飛區域
+73_WarningText = 您已進入禁飛區域
+102_WarningText = 當前為活動區域，為了保證遊戲體驗，以進行位面劃分
+101_WarningText = 當前為活動區域，為了保證遊戲體驗，以進行位面劃分

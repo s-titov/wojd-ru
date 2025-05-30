@@ -1,0 +1,8 @@
+46_WarningText = 您已进入禁飞区域
+41_WarningText = 您已进入禁飞区域
+42_WarningText = 您已进入禁飞区域
+45_WarningText = 您已进入禁飞区域
+22_WarningText = 您已进入禁飞区域
+38_WarningText = 您已进入禁飞区域
+39_WarningText = 您已进入禁飞区域
+40_WarningText = 您已进入禁飞区域

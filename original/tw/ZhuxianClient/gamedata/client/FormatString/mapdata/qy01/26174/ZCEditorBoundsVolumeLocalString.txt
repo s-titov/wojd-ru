@@ -1,0 +1,7 @@
+15_CollisionTips = 还有要务在身，切勿走远了！
+16_CollisionTips = 还有要务在身，切勿走远了！
+17_CollisionTips = 还有要务在身，切勿走远了！
+18_CollisionTips = 还有要务在身，切勿走远了！
+19_CollisionTips = 还有要务在身，切勿走远了！
+20_CollisionTips = 还有要务在身，切勿走远了！
+103_CollisionTips = 抽签结果即将宣布，别走远了！

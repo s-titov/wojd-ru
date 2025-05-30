@@ -1,0 +1,5 @@
+6_WarningText = 您已进入禁飞区域
+48_WarningText = 您已进入禁飞区域
+31_WarningText = 死神禁地！
+74_WarningText = 您已进入禁飞区域
+84_WarningText = 位面区域控制器测试
