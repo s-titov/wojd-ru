@@ -37,7 +37,7 @@ $locresOriginal = Join-Path $root "patch\$version\Locres\OriginalGame.locres"
 $locresNew = "$locresOriginal.new"
 $pakFolder = Join-Path $root "patch\$version\~Ru_Patch_Strings_Main_P"
 $pakOutput = "$pakFolder.pak"
-$hashFile = "$PSScriptRoot\build_patch_hash_$version.txt"
+$hashFile = "$PSScriptRoot\hashes\build_patch_hash_$version.txt"
 $pakFinal = "$gamePath\ZXSJ\Game\ZhuxianClient\Content\Paks\~Ru_Patch_Strings_Main_P.pak"
 
 $locresDir = "zh-Hans"
