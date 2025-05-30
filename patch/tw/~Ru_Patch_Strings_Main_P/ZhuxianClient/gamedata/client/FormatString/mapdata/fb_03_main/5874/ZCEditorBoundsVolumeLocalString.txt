@@ -1,0 +1,8 @@
+83_CollisionTips = 你走得太远了
+54_CollisionTips = 道路被妖狐施法阻拦，无法前进
+81_CollisionTips = 雾气太浓无法前进
+45_CollisionTips = 你走得太远了
+31_CollisionTips = 这里被三尾的气息笼罩，无法前进
+43_CollisionTips = 这里被三尾的气息笼罩，无法前进
+67_CollisionTips = 这里被三尾的气息笼罩，无法前进
+96_CollisionTips = 前方被黑泥覆盖，无法前进。

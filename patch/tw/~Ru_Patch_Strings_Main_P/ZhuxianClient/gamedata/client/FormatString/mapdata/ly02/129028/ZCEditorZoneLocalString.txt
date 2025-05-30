@@ -1,0 +1,6 @@
+16_WarningText = 您已進入禁飛區域
+17_WarningText = 您已進入禁飛區域
+20_WarningText = 您已進入禁飛區域
+21_WarningText = 您已進入禁飛區域
+80_WarningText = 您已進入禁飛區域
+15_WarningText = 您已進入禁飛區域

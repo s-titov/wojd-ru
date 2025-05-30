@@ -35,11 +35,16 @@ $root = (Split-Path $PSScriptRoot -Parent)
 $gameCsv = Join-Path $root "patch\$version\Locres\Game.csv"
 $locresOriginal = Join-Path $root "patch\$version\Locres\OriginalGame.locres"
 $locresNew = "$locresOriginal.new"
-$locresTarget = Join-Path $root "patch\$version\Ru_Patch_Strings_Main_P\ZhuxianClient\Content\Localization\Game\zh-Hans\Game.locres"
-$pakFolder = Join-Path $root "patch\$version\Ru_Patch_Strings_Main_P"
+$pakFolder = Join-Path $root "patch\$version\~Ru_Patch_Strings_Main_P"
 $pakOutput = "$pakFolder.pak"
 $hashFile = "$PSScriptRoot\build_patch_hash_$version.txt"
-$pakFinal = "$gamePath\ZXSJ\Game\ZhuxianClient\Content\Paks\Ru_Patch_Strings_Main_P.pak"
+$pakFinal = "$gamePath\ZXSJ\Game\ZhuxianClient\Content\Paks\~Ru_Patch_Strings_Main_P.pak"
+
+$locresDir = "zh-Hans"
+if ($version -eq "tw") {
+    $locresDir = "zh-Hant"
+}
+$locresTarget = Join-Path $root "patch\$version\~Ru_Patch_Strings_Main_P\ZhuxianClient\Content\Localization\Game\$locresDir\Game.locres"
 
 # Calculate current CSV hash
 $currentHash = Get-FileHash -Algorithm SHA256 $gameCsv | Select-Object -ExpandProperty Hash

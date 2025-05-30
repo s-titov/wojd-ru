@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+127_CollisionTips = 先从江宫主和河阳卫手中保护小书童吧！

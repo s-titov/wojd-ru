@@ -1,0 +1,2 @@
+35_CollisionTips = 前路漫漫，不可贸然前行！
+1_CollisionTips = 还是完成当前的委托吧

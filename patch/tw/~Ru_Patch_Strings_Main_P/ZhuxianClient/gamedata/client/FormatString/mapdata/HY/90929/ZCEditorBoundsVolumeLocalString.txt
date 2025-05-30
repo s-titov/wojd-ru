@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+162_CollisionTips = 快快制服发狂之人！
