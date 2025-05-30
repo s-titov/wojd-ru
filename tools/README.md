@@ -9,7 +9,7 @@
 
 Пример запуска:
 ```bash
-.\build_patch.ps1 -gamePath "D:\Games\ZXSJclient" -unrealLocresExe "D:\Programs\UnrealLocres\UnrealLocres.exe" -repakExe "D:\Programs\repak\repak.exe"
+.\build_patch.ps1 -version "tw" -gamePath "D:\Games\zxsjgt" -unrealLocresExe "D:\Programs\UnrealLocres\UnrealLocres.exe" -repakExe "D:\Programs\repak\repak.exe"
 ```
 
 ## unpack_game.ps1
@@ -24,7 +24,7 @@
 
 Пример запуска:
 ```bash
-.\unpack_game.ps1 -quickbmsExe "D:\Programs\QuickBMS\quickbms_4gb_files.exe" -gamePath "D:\Games\ZXSJclient" -outputDir "D:\JD_Russian\JDUnpacked"
+.\unpack_game.ps1 -quickbmsExe "D:\Programs\QuickBMS\quickbms_4gb_files.exe" -gamePath "D:\Games\zxsjgt" -outputDir "D:\JD_Russian\JDUnpacked"
 ```
 
 \* bms скрипт и ключ шифрования игры (AES key в bms скрипте) брались [отсюда](https://cs.rin.ru/forum/viewtopic.php?f=10&t=100672), если они больше не подходят можно покопаться в этом треде

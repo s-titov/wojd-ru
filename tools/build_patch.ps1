@@ -1,7 +1,8 @@
 param (
     [string]$unrealLocresExe,
     [string]$repakExe,
-    [string]$gamePath
+    [string]$gamePath,
+    [string]$version
 )
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -19,15 +20,25 @@ if (-not $gamePath) {
     exit 1
 }
 
+if (-not $version) {
+    Write-Error "Не передан аргумент version"
+    exit 1
+}
+
+if ($version -notin @("cn", "tw")) {
+    Write-Error "Доступные version: cn, tw"
+    exit 1
+}
+
 # Set paths
 $root = (Split-Path $PSScriptRoot -Parent)
-$gameCsv = Join-Path $root "patch\Locres\Game.csv"
-$locresOriginal = Join-Path $root "patch\Locres\OriginalGame.locres"
+$gameCsv = Join-Path $root "patch\$version\Locres\Game.csv"
+$locresOriginal = Join-Path $root "patch\$version\Locres\OriginalGame.locres"
 $locresNew = "$locresOriginal.new"
-$locresTarget = Join-Path $root "patch\Ru_Patch_Strings_Main_P\ZhuxianClient\Content\Localization\Game\zh-Hans\Game.locres"
-$pakFolder = Join-Path $root "patch\Ru_Patch_Strings_Main_P"
+$locresTarget = Join-Path $root "patch\$version\Ru_Patch_Strings_Main_P\ZhuxianClient\Content\Localization\Game\zh-Hans\Game.locres"
+$pakFolder = Join-Path $root "patch\$version\Ru_Patch_Strings_Main_P"
 $pakOutput = "$pakFolder.pak"
-$hashFile = "$PSScriptRoot\build_patch_hash.txt"
+$hashFile = "$PSScriptRoot\build_patch_hash_$version.txt"
 $pakFinal = "$gamePath\ZXSJ\Game\ZhuxianClient\Content\Paks\Ru_Patch_Strings_Main_P.pak"
 
 # Calculate current CSV hash

@@ -20,8 +20,8 @@
 
 Текста на перевод лежат в двух местах: 
 
-1. [FormatString](../patch/Ru_Patch_Strings_Main_P/ZhuxianClient/gamedata/client/FormatString)
-2. [Game.csv](../patch/Locres/Game.csv)
+1. [FormatString](../patch/cn/Ru_Patch_Strings_Main_P/ZhuxianClient/gamedata/client/FormatString)
+2. [Game.csv](../patch/cn/Locres/Game.csv)
 
 
 ### FormatString
