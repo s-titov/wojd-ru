@@ -94,6 +94,8 @@ for i = 0 < FILES
 	if NAME = ""
 		continue NEXT0
 	endif
+	# TODO: Only .txt & .locres
+
 	savepos TMP_OFF TOC_FILE
 	
 	get OFFSET longlong TOC_FILE

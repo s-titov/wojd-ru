@@ -211,6 +211,9 @@
 348 = 家具{0}已达到当前地图可摆放数量上限，操作失败
 349 = 当前地图可摆放家具已达上限
 350 = 选中物品包含可交互庭具/家具，暂不支持调整高度
+351 = 鼠标在装修区域内才可进行该操作
+352 = 当前选中的家具未放置，请先放置家具后再进行替换操作
+353 = 当前聚焦操作会导致视角异常，请手动移动镜头位置
 
 401 = 序号排序
 402 = 竞价排序
@@ -351,3 +354,15 @@
 763 = 竞拍玩家
 764 = 当前出价
 765 = 当前最高出价玩家
+
+qingtian = 晴天
+yutian = 雨天
+yintian = 阴天
+xuetian = 雪天
+ziyoujingtou = 自由镜头
+fushijingtou = 俯视镜头
+huifuchushibushe = 恢复初始布设
+huishousuoyoujiaju = 回收所有家具
+ziyoubaifang = 自由摆放
+dakaiwanggecankao = 打开网格参考
+dakaiduiqigongneng = 打开对齐功能

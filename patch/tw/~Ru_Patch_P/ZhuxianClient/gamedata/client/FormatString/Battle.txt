@@ -72,6 +72,15 @@
 72 = {0}/BattleStatistics/{1}{2}{3}
 73 = {0}/BattleStatistics/Error{1}
 74 = {0}/PlayerInfo/{1}/{1}/{2}/BattleWindowsSetting
+75 = {0}: {1}的{2}
+76 = 附近
+77 = 小队
+78 = 伤害
+79 = 治疗
+80 = 增/减益效果
+81 = 其他
+82 = 删除区段数据
+83 = 保留区段数据
 
 100 = 造成伤害
 101 = 每秒伤害

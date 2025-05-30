@@ -10421,5 +10421,243 @@
 			"flags": "SHOWTYPE_FLOAT",
 			"note": "任务"
 		}
-	}
+	},
+	"15500": {
+        "text": "不是房主，无法操作",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15501": {
+        "text": "跨服房间人数达到活动要求上限，操作失败",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15502": {
+        "text": "操作失败，协议信息和服务器信息不一致",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15503": {
+        "text": "操作失败，不在跨服房间",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15504": {
+        "text": "已在跨服房间，无法加入",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15505": {
+        "text": "小队中有成员已在跨服房间，无法加入",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15506": {
+        "text": "超出活动人数限制，无法加入",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15507": {
+        "text": "邀请的好友超过数量上限",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15508": {
+        "text": "房主未点击前往副本，无法进入",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15509": {
+        "text": "当前在副本中，无法进行此操作",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15510": {
+        "text": "已在跨服房间中，无法入队",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15511": {
+        "text": "小队只能申请团本",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15512": {
+        "text": "发布过违规招募信息，本周无法发布招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15513": {
+        "text": "招募违规，被系统删除",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15514": {
+        "text": "队长或队员已存在本服招募，无法发布或加入跨服招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15515": {
+        "text": "队长或队员已在跨服房间中，无法发布或加入其他招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15516": {
+        "text": "有队员已进入目标副本，无法修改活动目标",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15517": {
+        "text": "对方已不是您的好友，无法邀请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15518": {
+        "text": "好友不在线，邀请失败",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15519": {
+        "text": "好友邀请CD中",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15520": {
+        "text": "对方处于跨服状态，无法进行此操作",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15521": {
+        "text": "房主由于发布违规招募行为，将无法进行更新/补人操作",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15522": {
+        "text": "匹配中，无法发布或加入跨服招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15523": {
+        "text": "有队员在匹配中，无法发布或加入跨服招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15524": {
+        "text": "在跨服房间中，无法匹配",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15525": {
+        "text": "有队员在跨服房间中，无法匹配",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15527": {
+        "text": "首领战期间禁止进入副本",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15528": {
+        "text": "试玩账号无法发布招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15529": {
+        "text": "星元值过低，无法发起招募",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15530": {
+        "text": "招募已被撤销，无法申请",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15531": {
+        "text": "队伍人数长时间过少，招募已被撤销",
+        "metaData": {
+            "flags": "SHOWTYPE_CHATLOG | SHOWTYPE_MESSAGEBOX",
+            "note": "跨服招募"
+        }
+    },
+    "15532": {
+        "text": "队伍人数长时间未满，招募已被撤销",
+        "metaData": {
+            "flags": "SHOWTYPE_CHATLOG | SHOWTYPE_MESSAGEBOX",
+            "note": "跨服招募"
+        }
+    },
+    "15533": {
+        "text": "队长星元值过低，招募已被撤销",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    },
+    "15534": {
+        "text": "队长是试玩账号，招募已被撤销",
+        "metaData": {
+            "flags": "SHOWTYPE_FLOAT",
+            "note": "跨服招募"
+        }
+    }
 }
