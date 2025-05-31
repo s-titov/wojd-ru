@@ -42,7 +42,6 @@ $count = 0
 foreach ($pak in $paks) {
     $count++
     $pakFile = $pak.FullName
-    $pakName = $pak.Name
 
     # Обновление прогресс-бара
     Write-Progress -Activity "Обработка .pak файлов" `
