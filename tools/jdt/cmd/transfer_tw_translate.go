@@ -8,6 +8,9 @@ import (
 	"strings"
 )
 
+// transfer tw ru translate to patch .locres
+// ignore already translated rows without "tw-translate" comment
+
 func main() {
 	source := "patch/Locres/GameTwRu.csv"
 	target := "patch/Locres/Game.csv"

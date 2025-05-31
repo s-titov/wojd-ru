@@ -94,6 +94,7 @@ for i = 0 < FILES
 	if NAME = ""
 		continue NEXT0
 	endif
+	# NAME = "D:/some/path/something.txt.gdv" -> получить расширение .gdv или gdv (идти с конца до точки)
 	# TODO: Only .txt & .locres
 
 	savepos TMP_OFF TOC_FILE
