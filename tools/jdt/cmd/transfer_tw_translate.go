@@ -12,8 +12,8 @@ import (
 // ignore already translated rows without "tw-translate" comment
 
 func main() {
-	source := "patch/Locres/GameTwRu.csv"
-	target := "patch/Locres/Game.csv"
+	source := "patch/cn/Locres/GameTwRu.csv"
+	target := "patch/cn/Locres/Game.csv"
 
 	translations, err := prepareTranslations(source)
 	if err != nil {

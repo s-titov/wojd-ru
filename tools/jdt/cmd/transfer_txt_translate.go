@@ -8,6 +8,8 @@ import (
 	"strings"
 )
 
+// transfer txt translates from cn to tw
+
 type FileName string
 type TranslationKey string
 type Translations map[FileName]map[TranslationKey]string
