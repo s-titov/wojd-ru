@@ -32,8 +32,6 @@ if (-not (Test-Path $outputDir)) {
 # Обработка всех .pak файлов, кроме содержащих Ru_Patch
 $paks = Get-ChildItem -Path $paksDir -Filter *.pak | Where-Object {
     $_.Name -notmatch "Ru_Patch"
-} | Sort-Object {
-    [System.Text.Encoding]::ASCII.GetBytes($_.Name) -join ','
 }
 
 $total = $paks.Count
@@ -49,5 +47,5 @@ foreach ($pak in $paks) {
                    -PercentComplete (($count / $total) * 100)
 
     # Запуск команды без вывода
-    & $quickbmsExe -o -Y $bmsScript $pakFile $outputDir *> $null
+    & $quickbmsExe -o -Y $bmsScript $pakFile $outputDir
 }
