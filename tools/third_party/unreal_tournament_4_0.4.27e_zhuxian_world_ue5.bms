@@ -457,23 +457,26 @@ startfunction CHECK_FILE_EXTENSION
     
     # Convert filename to lowercase for case-insensitive matching
     string NAME_LOWER l NAME
-
     set REPLACED_NAME string NAME_LOWER
-    string REPLACED_NAME R ".gdv" ""
-    if NAME_LOWER != REPLACED_NAME
-        goto END_EXTENSION_CHECK
-    endif
 
     string REPLACED_NAME R ".txt" ""
     if NAME_LOWER != REPLACED_NAME
         set EXTENSION_MATCHES long 1
-        goto END_EXTENSION_CHECK
     endif
 
     string REPLACED_NAME R ".locres" ""
     if NAME_LOWER != REPLACED_NAME
         set EXTENSION_MATCHES long 1
     endif
-    
-    label END_EXTENSION_CHECK
+
+    string REPLACED_NAME R ".json" ""
+    if NAME_LOWER != REPLACED_NAME
+        set EXTENSION_MATCHES long 1
+    endif
+
+    set PREV_REPLACED_NAME string REPLACED_NAME
+    string REPLACED_NAME R ".gdv" ""
+    if PREV_REPLACED_NAME != REPLACED_NAME
+        set EXTENSION_MATCHES long 0
+    endif
 endfunction
