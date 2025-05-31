@@ -1,0 +1,16 @@
+63_WarningText = 您已进入禁飞区域
+67_WarningText = 即将迷失
+64_WarningText = 您已进入禁飞区域
+68_WarningText = 即将迷失
+69_WarningText = 即将迷失
+70_WarningText = 即将迷失
+71_WarningText = 即将迷失
+66_WarningText = 即将迷失
+5_ZoneName = 火焰
+5_WarningText = 您已进入禁飞区域
+6_ZoneName = 火焰
+6_WarningText = 您已进入禁飞区域
+8_ZoneName = 火焰
+8_WarningText = 您已进入禁飞区域
+9_ZoneName = 火焰
+9_WarningText = 您已进入禁飞区域

@@ -1,0 +1,4 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+123_CollisionTips = 河阳围在旦夕，请解决眼前危机
+125_CollisionTips = 河阳危在旦夕，首先解决眼前危机
+122_CollisionTips = 河阳危在旦夕，使用传送阵，速速前往荣耀广场

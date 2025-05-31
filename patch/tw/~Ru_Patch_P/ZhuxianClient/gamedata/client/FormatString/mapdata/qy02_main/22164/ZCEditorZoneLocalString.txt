@@ -1,0 +1,8 @@
+78_WarningText = 您已進入禁飛區域
+77_WarningText = 您已進入禁飛區域
+30_WarningText = 下方混沌異常，速速離去
+31_WarningText = 下方混沌異常，速速離去
+32_WarningText = 下方混沌異常，速速離去
+27_WarningText = 下方混沌異常，速速離去
+28_WarningText = 下方混沌異常，速速離去
+29_WarningText = 下方混沌異常，速速離去

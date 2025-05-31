@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+141_CollisionTips = 试炼教学进行中，还请专心。

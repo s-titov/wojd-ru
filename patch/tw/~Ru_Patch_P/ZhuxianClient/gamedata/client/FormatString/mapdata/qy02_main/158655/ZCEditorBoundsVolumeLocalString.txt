@@ -1,0 +1,5 @@
+35_CollisionTips = 前路漫漫，不可贸然前行！
+63_CollisionTips = 调查青云山麓疑团要紧，切勿走远
+65_CollisionTips = 调查兴合庄疑团要紧，切勿走远
+69_CollisionTips = 戾兽之危迫在眉睫，切勿远离
+70_CollisionTips = 戾兽之危迫在眉睫，切勿远离

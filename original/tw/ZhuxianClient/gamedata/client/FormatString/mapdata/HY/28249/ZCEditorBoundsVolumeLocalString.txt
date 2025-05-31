@@ -1,0 +1,5 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+326_CollisionTips = 请在本侧的树兰桃李阵中寻找契灵【心意相通】
+325_CollisionTips = 请在本侧的树兰桃李阵中寻找契灵【心意相通】
+138_CollisionTips = 小心落水！
+93_CollisionTips = 小心落水！

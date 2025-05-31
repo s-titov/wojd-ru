@@ -1,0 +1,13 @@
+35_CollisionTips = 前路漫漫，不可贸然前行！
+22_CollisionTips = 先解决完眼前的问题吧，别走远了。
+23_CollisionTips = 寻找摇光要紧，不要走远了。
+26_CollisionTips = 洞内危险，不要走远了。
+24_CollisionTips = 先解决完眼前的问题吧，别走远了。
+8_CollisionTips = 寻找阵图要紧，不要走远了。
+25_CollisionTips = 飞廉还在外面，还是先别出去了。
+27_CollisionTips = 先解决完眼前的问题吧，别走远了。
+28_CollisionTips = 先解决完眼前的问题吧，别走远了。
+9_CollisionTips = 前路情况不明，跟随摇光，先别走远了。
+20_CollisionTips = 寻找阵图要紧，不要走远了。
+21_CollisionTips = 先解决完眼前的问题吧，别走远了。
+7_CollisionTips = 有股神秘的力量守护着石门

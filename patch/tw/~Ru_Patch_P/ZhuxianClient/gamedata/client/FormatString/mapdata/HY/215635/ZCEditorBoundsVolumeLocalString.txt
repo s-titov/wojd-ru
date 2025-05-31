@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+195_CollisionTips = 梦梅树散发着神圣不可靠近的光辉！

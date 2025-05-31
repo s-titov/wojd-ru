@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+104_CollisionTips = 先解决眼前危机，请勿走远！

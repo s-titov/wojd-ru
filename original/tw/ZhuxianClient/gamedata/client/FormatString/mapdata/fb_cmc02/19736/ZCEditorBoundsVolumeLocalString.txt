@@ -1,0 +1,1 @@
+35_CollisionTips = 先在附近探索吧，别走远了

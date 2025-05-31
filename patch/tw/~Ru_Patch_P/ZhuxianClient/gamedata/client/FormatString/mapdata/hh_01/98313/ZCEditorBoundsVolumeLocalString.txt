@@ -1,0 +1,2 @@
+2_CollisionTips = 大阵已开启，切勿继续前行
+4_CollisionTips = 金瓶儿还在休息，先别去打扰了。

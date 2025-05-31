@@ -1,0 +1,13 @@
+5_CollisionTips = 请使用风场回到主战场
+6_CollisionTips = 请使用风场回到主战场
+7_CollisionTips = 请使用风场回到主战场
+8_CollisionTips = 请勿离开战场区域
+1_CollisionTips = 请使用风场加入战场
+9_CollisionTips = 请勿离开战场区域
+10_CollisionTips = 请勿离开战场区域
+11_CollisionTips = 请勿离开战场区域
+12_CollisionTips = 请勿离开战场区域
+13_CollisionTips = 请勿离开战场区域
+3_CollisionTips = 请使用风场加入战场
+14_CollisionTips = 请勿离开战场区域
+4_CollisionTips = 请使用风场回到主战场

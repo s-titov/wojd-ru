@@ -1,0 +1,2 @@
+130_WarningText = 即將迷失
+112_WarningText = 下方混沌，速速離開！

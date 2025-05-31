@@ -1,0 +1,2 @@
+12_WarningText = 您已进入禁飞区域
+30_WarningText = 您尝试在岩浆中游泳

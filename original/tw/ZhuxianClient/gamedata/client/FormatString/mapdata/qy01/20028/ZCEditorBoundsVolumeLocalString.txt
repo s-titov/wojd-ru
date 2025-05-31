@@ -1,0 +1,5 @@
+63_CollisionTips = 前方水深，小心！
+5_CollisionTips = 还是先看看房间里有什么再出去吧。
+67_CollisionTips = 前方地势险要，切勿靠近！
+62_CollisionTips = 玉清殿重地，不得四处闲逛！
+66_CollisionTips = 前方地势险要，切勿靠近！

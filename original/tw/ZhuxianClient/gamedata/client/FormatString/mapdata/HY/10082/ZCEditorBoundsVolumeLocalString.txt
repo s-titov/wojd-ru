@@ -1,0 +1,5 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+136_CollisionTips = 请解决完善人庄之灾后再离开吧。
+92_CollisionTips = 机缘未了，暂且请回
+15_CollisionTips = 厉鬼袭来，不可逃避！
+16_CollisionTips = 厉鬼袭来，不可逃避！

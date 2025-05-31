@@ -1,0 +1,5 @@
+88_CollisionTips = 请静待掌门与首座商议
+89_CollisionTips = 答题结算中，稍安勿躁
+90_CollisionTips = 答题结算中，稍安勿躁
+91_CollisionTips = 答题结算中，稍安勿躁
+52_CollisionTips = 前途漫漫，暂且请回吧！

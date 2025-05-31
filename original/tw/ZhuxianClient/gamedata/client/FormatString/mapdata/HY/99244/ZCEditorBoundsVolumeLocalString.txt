@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+135_CollisionTips = 先忙完此处事务再离去吧

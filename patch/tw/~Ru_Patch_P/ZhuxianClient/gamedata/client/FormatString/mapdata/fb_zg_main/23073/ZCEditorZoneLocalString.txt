@@ -1,0 +1,16 @@
+12_WarningText = 您已进入禁飞区域
+11_WarningText = 您已进入禁飞区域
+13_WarningText = 您已进入禁飞区域
+14_WarningText = 您已进入禁飞区域
+16_WarningText = 您已进入禁飞区域
+17_WarningText = 您已进入禁飞区域
+20_WarningText = 您已进入禁飞区域
+21_WarningText = 您已进入禁飞区域
+31_ZoneName = 天地困局
+31_WarningText = 您已进入禁飞区域
+26_WarningText = 您已进入禁飞区域
+29_WarningText = 您已进入禁飞区域
+30_WarningText = 您已进入禁飞区域
+32_WarningText = 您已进入禁飞区域
+28_WarningText = 您已进入禁飞区域
+33_ZoneName = 璇玑命星

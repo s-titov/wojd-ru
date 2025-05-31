@@ -1,0 +1,3 @@
+35_CollisionTips = 先在附近探索吧，别走远了
+6_CollisionTips = 请优先完成嘱托吧！
+4_CollisionTips = 请优先完成嘱托吧！

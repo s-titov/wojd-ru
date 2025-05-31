@@ -1,0 +1,11 @@
+135_WarningText = 您已进入禁飞区域
+136_WarningText = 您已进入禁飞区域
+137_WarningText = 您已进入禁飞区域
+138_WarningText = 您已进入禁飞区域
+139_WarningText = 您已进入禁飞区域
+140_WarningText = 您已进入禁飞区域
+141_WarningText = 您已进入禁飞区域
+142_WarningText = 您已进入禁飞区域
+143_WarningText = 您已进入禁飞区域
+168_WarningText = 您已进入禁飞区域
+132_WarningText = 您已进入禁飞区域

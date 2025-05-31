@@ -1,0 +1,11 @@
+62_WarningText = 您已进入禁飞区域
+67_WarningText = 您已进入禁飞区域
+54_ZoneName = 往生之火
+54_WarningText = 您已进入禁飞区域
+66_WarningText = 您已进入禁飞区域
+71_WarningText = 您已进入禁飞区域
+72_WarningText = 您已进入禁飞区域
+73_WarningText = 您已进入禁飞区域
+70_WarningText = 您已进入禁飞区域
+75_ZoneName = 璇玑命星
+60_WarningText = 您已进入禁飞区域

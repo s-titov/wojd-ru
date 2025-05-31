@@ -1,0 +1,1 @@
+1_CollisionTips = 到边界啦

@@ -1,0 +1,2 @@
+8_WarningText = 即将迷失
+9_WarningText = 下方混沌异常，速速离去

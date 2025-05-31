@@ -1,0 +1,2 @@
+35_CollisionTips = 前路漫漫，不可贸然前行！
+56_CollisionTips = 浓雾危险，不宜贸然前进

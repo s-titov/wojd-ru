@@ -1,0 +1,2 @@
+2_CollisionTips = 星海无涯，天机难测，宜早回返
+4_CollisionTips = 星海无涯，天机难测，宜早回返

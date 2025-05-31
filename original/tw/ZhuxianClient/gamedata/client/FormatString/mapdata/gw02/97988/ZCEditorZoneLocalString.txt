@@ -1,0 +1,11 @@
+163_WarningText = 烈焰灼身，速速离去
+164_WarningText = 烈焰灼身，速速离去
+165_WarningText = 烈焰灼身，速速离去
+166_WarningText = 烈焰灼身，速速离去
+167_WarningText = 烈焰灼身，速速离去
+56_WarningText = 即将迷失
+149_WarningText = 即将迷失
+159_WarningText = 即将迷失
+160_WarningText = 即将迷失
+161_WarningText = 即将迷失
+162_WarningText = 烈焰灼身，速速离去

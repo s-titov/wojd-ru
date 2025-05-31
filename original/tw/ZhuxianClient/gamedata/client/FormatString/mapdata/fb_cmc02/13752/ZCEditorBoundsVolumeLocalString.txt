@@ -1,0 +1,11 @@
+35_CollisionTips = 先在附近探索吧，别走远了
+25_CollisionTips = 前方危险，先别靠近，找惊羽他们问问。
+14_CollisionTips = 别走远了，先在附近看看吧！
+15_CollisionTips = 别走远了，先在附近看看吧！
+16_CollisionTips = 别走远了，先在附近看看吧！
+11_CollisionTips = 先解决掉黑衣人吧！
+10_CollisionTips = 先解决掉七尾蜈蚣吧！
+9_CollisionTips = 先解决掉嗜血猪吧！
+12_CollisionTips = 先解决掉蜈蚣吧！
+13_CollisionTips = 先解决掉蜈蚣吧！
+29_CollisionTips = 似乎封印着什么……
