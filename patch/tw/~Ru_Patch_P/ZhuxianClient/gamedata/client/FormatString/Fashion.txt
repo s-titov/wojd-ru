@@ -184,15 +184,15 @@
 243 = Полет
 244 = Для двоих
 
-1000 = 黑白灰 //TODO: Translate
-1001 = 红 //TODO: Translate
-1002 = 橙 //TODO: Translate
-1003 = 橘黄 //TODO: Translate
-1004 = 黄 //TODO: Translate
-1005 = 绿 //TODO: Translate
-1006 = 青 //TODO: Translate
-1007 = 蓝 //TODO: Translate
-1008 = 宝蓝 //TODO: Translate
-1009 = 紫 //TODO: Translate
-1010 = 粉 //TODO: Translate
-1011 = 玫红 //TODO: Translate
+1000 = Чёрно-белый
+1001 = Красный
+1002 = Оранжевый
+1003 = Янтарный
+1004 = Жёлтый
+1005 = Зелёный
+1006 = Бирюзовый
+1007 = Синий
+1008 = Лазурный
+1009 = Фиолетовый
+1010 = Розовый
+1011 = Малиновый
