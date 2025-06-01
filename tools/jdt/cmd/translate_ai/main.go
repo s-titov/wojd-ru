@@ -6,7 +6,10 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"time"
 	"unicode"
+
+	"github.com/schollz/progressbar/v3"
 
 	"translate_ai/adapter"
 )
@@ -42,9 +45,18 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	}
 	defer func() { _ = tempFile.Close() }()
 
+	bar := progressbar.NewOptions(-1,
+		progressbar.OptionSetDescription("Translating rows"),
+		progressbar.OptionShowCount(),
+		progressbar.OptionSetElapsedTime(true),
+		progressbar.OptionSetPredictTime(false),
+		progressbar.OptionThrottle(100*time.Millisecond),
+	)
+
 	scanner := bufio.NewScanner(file)
-	translationsLimit := 10
+	translationsLimit := 100
 	translationsCount := 0
+	alreadyTranslated := map[string]string{}
 	for scanner.Scan() {
 		if translationsCount >= translationsLimit {
 			break
@@ -60,19 +72,26 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 				return err
 			}
 
+			_ = bar.Add(1)
 			continue
 		}
 
-		var value string
 		parts := strings.SplitN(line, "=", 2)
 		if len(parts) == 2 {
-			key := strings.TrimSpace(parts[0])
+			var value, translate string
+			var ok bool
 
+			key := strings.TrimSpace(parts[0])
 			value = strings.TrimSpace(parts[1])
 			if needTranslate(value) {
-				// TODO: Translate map
-				value, err = chatGPT.Translate(ctx, value)
-				translationsCount++
+				if translate, ok = alreadyTranslated[value]; ok {
+					value = translate
+				} else {
+					translate, err = chatGPT.Translate(ctx, value)
+					alreadyTranslated[value] = translate
+					value = translate
+					translationsCount++
+				}
 			}
 			if err != nil {
 				return err
@@ -84,6 +103,8 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 				return err
 			}
 		}
+
+		_ = bar.Add(1)
 	}
 
 	err = tempFile.Close()
