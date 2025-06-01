@@ -125,19 +125,16 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	return err
 }
 
-// needTranslate проверяет, состоит ли строка только из цифр, латиницы и знаков препинания
 func needTranslate(s string) bool {
 	for _, r := range s {
 		switch {
-		case unicode.IsDigit(r):
+		case r <= 127: // ASCII (latin, digit, etc)
+			continue
+		case r >= 0x0400 && r <= 0x04FF: // cyrillic
 			continue
 		case unicode.IsPunct(r):
 			continue
 		case unicode.IsSpace(r):
-			continue
-		case unicode.IsLetter(r) && r <= unicode.MaxASCII: // latin
-			continue
-		case r >= 0x0400 && r <= 0x04FF: // cyrillic
 			continue
 		default:
 			return true
