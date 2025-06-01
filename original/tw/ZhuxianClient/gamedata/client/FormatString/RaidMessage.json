@@ -1,0 +1,16 @@
+{
+    "1": {
+        "text": "检测到战斗区域内没有存活玩家，首领已重置！",
+        "metadata": {
+            "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
+            "note": "版面因战斗区域内没有玩家而重置时的提示"
+        }
+    },
+    "2": {
+        "text": "检测到首领离开战斗区域，首领已重置！",
+        "metadata": {
+            "flags": "SHOWTYPE_FLOAT | SHOWTYPE_CHATLOG",
+            "note": "版面因BOSS离开战斗区域时的提示"
+        }
+    }
+}

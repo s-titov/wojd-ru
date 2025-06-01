@@ -1,0 +1,11 @@
+115_WarningText = 您已进入禁飞区域
+42_WarningText = 您已进入禁飞区域
+56_WarningText = 您已进入禁飞区域
+120_WarningText = 您已进入禁飞区域
+121_WarningText = 您已进入禁飞区域
+45_WarningText = 您已进入禁飞区域
+44_WarningText = 您已进入禁飞区域
+46_WarningText = 您已进入禁飞区域
+52_WarningText = 您已进入禁飞区域
+55_WarningText = 您已进入禁飞区域
+124_ZoneName = 璇玑命星

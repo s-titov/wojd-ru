@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+167_CollisionTips = 不明缘由，暂勿靠近！

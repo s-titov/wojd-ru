@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+196_CollisionTips = 正在扮演年兽，还是不要跑远了。

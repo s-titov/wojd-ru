@@ -1,0 +1,2 @@
+24_CollisionTips = 被困其中，只能奋力突破！
+23_CollisionTips = 此地设有法阵，无法通过。

@@ -1,0 +1,11 @@
+2_ZoneName = 岩浆
+2_WarningText = 您已进入禁飞区域
+3_ZoneName = 岩浆
+3_WarningText = 您已进入禁飞区域
+4_ZoneName = 岩浆
+4_WarningText = 您已进入禁飞区域
+5_ZoneName = 岩浆
+5_WarningText = 您已进入禁飞区域
+6_ZoneName = 岩浆
+6_WarningText = 您已进入禁飞区域
+1_WarningText = 您已进入禁飞区域

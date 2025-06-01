@@ -1,0 +1,1 @@
+10_CollisionTips = 前路漫漫，请勿贸然前行

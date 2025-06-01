@@ -1,6 +1,6 @@
 # Шрифты
 
-Шрифты текущего патча находятся в папке [UI_ziti](../../patch/Ru_Patch_Strings_Main_P/ZhuxianClient/Content/UI/UI_Texture/UI_ziti)
+Шрифты текущего патча находятся в папке [UI_ziti](../../patch/tw/~Ru_Patch_P/ZhuxianClient/Content/UI/UI_Texture/UI_ziti)
 <br>Оригинальные шрифты из игры (без добавления русского) лежат в данной папке.
 
 ## Предисловие

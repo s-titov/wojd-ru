@@ -1,0 +1,8 @@
+72_CollisionTips = 前路漫漫，不可贸然前行
+73_CollisionTips = 前路漫漫，不可贸然前行
+74_CollisionTips = 前路漫漫，不可贸然前行
+67_CollisionTips = 前路漫漫，暂且请回吧！
+70_CollisionTips = 山腹狭小阴暗，另寻他路吧
+20_CollisionTips = 无路可退……只可力战！
+19_CollisionTips = 无路可退……先解决眼前的麻烦！
+15_CollisionTips = 前路难测，准备万全后再前进

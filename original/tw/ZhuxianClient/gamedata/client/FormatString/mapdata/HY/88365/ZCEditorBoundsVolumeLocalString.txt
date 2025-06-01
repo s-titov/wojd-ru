@@ -1,0 +1,7 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+97_CollisionTips = 先处理好闹鬼事件后再离开吧
+99_CollisionTips = 无可遁走，速速迎敌！
+100_CollisionTips = 无可遁走，速速迎敌！
+94_CollisionTips = 此事未了，暂且请回吧
+95_CollisionTips = 此事未了，暂且请回吧
+96_CollisionTips = 请在规定区域内瞻仰宝经，切莫靠近。

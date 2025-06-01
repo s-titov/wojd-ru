@@ -1,0 +1,46 @@
+1 = 【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】создал гильдию.
+2 = 【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】вступил в гильдию, добро пожаловать.
+3 = 【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】был исключён из гильдии игроком【<a type="OpenUI" style="link" text="{2}" roleID="{3}" UI=""></>】.
+4 = Участник гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】покинул гильдию для самостоятельного развития.
+5 = 【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】назначен игроком【<a type="OpenUI" style="link" text="{2}" roleID="{3}" UI=""></>】на должность【(##Color:BP_Member){4}(##Color:Default)】.
+6 = 
+7 = Участник гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】положил в гильдейский склад(##Color:BP_Member)【{2}】(##Color:Default) предмет {3}*{4}.
+8 = Участник гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】забрал из гильдейского склада(##Color:BP_Member)【{2}】(##Color:Default) предмет {3}*{4}.
+9 = Наша гильдия вскоре сменит фракцию с【(##Color:BP_Member){1}(##Color:Default)】на【(##Color:BP_Member){2}(##Color:Default)】в день【(##Color:BP_Member){0}(##Color:Default)】. Пожалуйста, подтвердите вовремя.
+10 = Лидер гильдии отменил заявку на смену фракции.
+11 = Наша гильдия успешно перешла во фракцию【(##Color:BP_Member){0}(##Color:Default)】. Участвуйте в гильдейных и фракционных активностях!
+12 = Участник гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】переименовал гильдию с【(##Color:BP_Member){2}(##Color:Default)】на【(##Color:BP_Member){3}(##Color:Default)】.
+13 = Наша гильдия заняла【(##Color:BP_Member){0}(##Color:Default)】место в рейтинге 【(##Color:BP_Member)Сюаньцун Фумо(##Color:Default)】 на этой неделе.
+14 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】открыл мероприятие【(##Color:BP_Member){3}(##Color:Default)】 сложности【(##Color:BP_Member){2}(##Color:Default)】. Приглашаем на участие в Юньцзян Фанцунь.
+15 = Мероприятие【(##Color:BP_Member){0}(##Color:Default)】завершено. Участники могут получить награду в Сюаньцун Линтай.
+16 = Мероприятие【(##Color:BP_Member){0}(##Color:Default)】завершено. Босс не побеждён, награда не выдана, попытка возвращена.
+17 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】открыл мероприятие【(##Color:BP_Member){3}(##Color:Default)】 сложности【(##Color:BP_Member){2}(##Color:Default)】. Приглашаем на участие в Юньцзян Фанцунь.
+18 = Мероприятие【(##Color:BP_Member){0}(##Color:Default)】завершено.
+19 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】открыл мероприятие【(##Color:BP_Member){2}(##Color:Default)】. Приглашаем на участие в Юньцзян Фанцунь.
+20 = Мероприятие【(##Color:BP_Member){0}(##Color:Default)】завершено. Участники могут получить награду в Ханьсюй Чи.
+21 = Мероприятие【(##Color:BP_Member){0}(##Color:Default)】началось. Приглашаем на участие в Юньцзян Фанцунь.
+22 = Мероприятие【(##Color:BP_Member){0}(##Color:Default)】завершено.
+23 = К сожалению, наша гильдия не вошла в рейтинг 【(##Color:BP_Member){0}(##Color:Default)】 на этой неделе.
+24 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】потратил (##Color:BP_Member){2}(##Color:Default) очков духа гильдии, чтобы изучить 【(##Color:BP_Member){3}(##Color:Default)】 Хунвэнь Чжэндао.
+25 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】потратил (##Color:BP_Member){2}(##Color:Default) очков духа гильдии, чтобы изучить еженедельное 【(##Color:BP_Member){3}(##Color:Default)】 Ивэнь Цишу.
+26 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】потратил (##Color:BP_Member){2}(##Color:Default) очков духа гильдии, чтобы активировать 【(##Color:BP_Member){3}(##Color:Default)】.
+27 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】потратил (##Color:BP_Member){2}(##Color:Default) очков духа гильдии, чтобы начать войну гильдий.
+28 = 【(##Color:BP_Member){0}(##Color:Default)】 завершено, гильдия получила (##Color:BP_Member){1}(##Color:Default) очков духа.
+29 = 【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】передал руководство гильдии игроку【<a type="OpenUI" style="link" text="{2}" roleID="{3}" UI=""></>】, а сам стал обычным участником【<a type="OpenUI" style="link" text="{4}" roleID="{5}" UI=""></>】.
+30 = Лидер гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】подал заявку на роспуск гильдии. Гильдия будет распущена через 3 дня.
+31 = Лидер гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】отменил заявку на роспуск гильдии.
+32 = Хунвэнь Чжэндао【(##Color:BP_Member){0}(##Color:Default)】успешно изучен.
+33 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】открыл доступ【(##Color:BP_Member){4}(##Color:Default)】к странице склада【(##Color:BP_Member){3}(##Color:Default)】 склада【(##Color:BP_Member){2}(##Color:Default)】.
+34 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】отменил доступ【(##Color:BP_Member){4}(##Color:Default)】к странице склада【(##Color:BP_Member){3}(##Color:Default)】 склада【(##Color:BP_Member){2}(##Color:Default)】.
+35 = Наша гильдия объявила войну гильдии【(##Color:BP_Member){0}(##Color:Default)】.
+36 = Гильдия【(##Color:BP_Member){0}(##Color:Default)】объявила войну нашей гильдии.
+37 = Участник гильдии【<a type="OpenUI" style="link" text="{1}" roleID="{2}" UI=""></>】из гильдии【(##Color:BP_Member){0}(##Color:Default)】победил участника нашей гильдии【<a type="OpenUI" style="link" text="{3}" roleID="{4}" UI=""></>】.
+38 = Наш участник【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】победил участника гильдии【(##Color:BP_Member){2}(##Color:Default)】【<a type="OpenUI" style="link" text="{3}" roleID="{4}" UI=""></>】.
+39 = Предпочтения по войне изменены на режим «Сначала порядок внутри, затем — снаружи».
+40 = Предпочтения по войне изменены на режим «Принимаем всех».
+41 = Наша гильдия в состоянии【(##Color:BP_Member){1}(##Color:Default)】 в войне с гильдией【(##Color:BP_Member){0}(##Color:Default)】.
+42 = Уровень гильдии повышен до【(##Color:BP_Member){0}(##Color:Default)】.
+43 = Управляющий гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】изменил время начала мероприятия【(##Color:BP_Member){2}(##Color:Default)】 на【{3}】. Изменения вступят в силу на следующий день.
+44 = 【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】{2} право сортировки склада гильдии【(##Color:BP_Member){3}(##Color:Default)】.
+45 = Состав команды гильдейной лиги обновлён.
+46 = Лидер гильдии【<a type="OpenUI" style="link" text="{0}" roleID="{1}" UI=""></>】долго не заходил в игру. Руководство автоматически передано игроку【<a type="OpenUI" style="link" text="{2}" roleID="{3}" UI=""></>】.

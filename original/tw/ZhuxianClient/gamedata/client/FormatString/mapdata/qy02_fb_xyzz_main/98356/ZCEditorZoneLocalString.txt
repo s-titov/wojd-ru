@@ -1,0 +1,3 @@
+15_ZoneName = 璇玑命星
+10_WarningText = 即将迷失自我!
+9_WarningText = 即将迷失自我!

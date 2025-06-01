@@ -1,0 +1,9 @@
+63_WarningText = 您已进入禁飞区域
+67_WarningText = 即将迷失
+64_WarningText = 您已进入禁飞区域
+68_WarningText = 即将迷失
+69_WarningText = 即将迷失
+70_WarningText = 即将迷失
+71_WarningText = 即将迷失
+66_WarningText = 即将迷失
+43_WarningText = 此处古尸毒弥漫，速速离开！

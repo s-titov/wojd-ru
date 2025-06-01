@@ -1,0 +1,8 @@
+6_CollisionTips = 天机六壬盘器灵未注入，无法解开前方封印。
+7_CollisionTips = 诛仙剑器灵未注入，无法解开前方封印。
+8_CollisionTips = 玄火鉴器灵未注入，无法解开前方封印。
+2_CollisionTips = 乾坤轮回盘器灵未注入，无法解开前方封印。
+3_CollisionTips = 噬血珠器灵未注入，无法解开前方封印。
+4_CollisionTips = 合欢铃器灵未注入，无法解开前方封印。
+5_CollisionTips = 天琊器灵未注入，无法解开前方封印。
+1_CollisionTips = 伏龙鼎器灵未注入，无法解开前方封印。

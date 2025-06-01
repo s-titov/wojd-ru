@@ -1,0 +1,2 @@
+6_WarningText = 您已进入禁飞区域
+10_WarningText = 您已进入禁飞区域

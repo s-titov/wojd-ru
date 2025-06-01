@@ -1,0 +1,6 @@
+1_CollisionTips = 雷霆之威，无法靠近
+6_CollisionTips = 雷霆之威，无法靠近
+3_CollisionTips = 雷霆之威，无法靠近
+4_CollisionTips = 雷霆之威，无法靠近
+5_CollisionTips = 雷霆之威，无法靠近
+2_CollisionTips = 雷霆之威，无法靠近。

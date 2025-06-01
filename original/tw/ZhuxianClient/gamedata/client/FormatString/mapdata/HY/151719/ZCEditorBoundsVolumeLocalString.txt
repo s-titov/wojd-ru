@@ -1,0 +1,4 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+187_CollisionTips = 此处被设下禁制，无法入内探查。
+164_CollisionTips = 事态紧急，先拯救小驺虞。
+161_CollisionTips = 事态紧急，先解决眼前的问题。

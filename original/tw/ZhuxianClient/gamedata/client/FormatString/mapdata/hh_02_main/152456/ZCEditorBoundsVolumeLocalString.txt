@@ -1,0 +1,2 @@
+3_CollisionTips = 前路漫漫，不可贸然前行！
+25_CollisionTips = 前方气机流转异常，无法通行

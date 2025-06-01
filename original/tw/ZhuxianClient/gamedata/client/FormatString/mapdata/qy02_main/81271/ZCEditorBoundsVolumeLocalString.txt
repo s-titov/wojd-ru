@@ -1,0 +1,2 @@
+35_CollisionTips = 前路漫漫，不可贸然前行！
+55_CollisionTips = 保护韶音姑娘，速速解决戾妖群，不要走远了

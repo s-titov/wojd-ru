@@ -1,0 +1,2 @@
+130_WarningText = 即將迷失
+316_WarningText = 此處被禁制所限，無法離開

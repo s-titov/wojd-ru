@@ -1,0 +1,1 @@
+4_WarningText = 您已进入禁飞区域

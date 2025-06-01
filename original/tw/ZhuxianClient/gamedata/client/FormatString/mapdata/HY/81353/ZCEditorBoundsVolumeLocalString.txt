@@ -1,0 +1,4 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+138_CollisionTips = 小心落水！
+93_CollisionTips = 小心落水！
+133_CollisionTips = 孟尘缨所创造回忆结界，不可突破！

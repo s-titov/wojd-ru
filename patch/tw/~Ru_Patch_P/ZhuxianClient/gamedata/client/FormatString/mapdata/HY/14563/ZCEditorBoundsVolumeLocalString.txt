@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+128_CollisionTips = 一定要阻止江宫主！

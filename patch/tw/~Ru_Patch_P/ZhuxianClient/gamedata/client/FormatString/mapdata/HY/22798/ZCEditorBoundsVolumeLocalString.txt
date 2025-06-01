@@ -1,0 +1,2 @@
+91_CollisionTips = 前路漫漫，暂且请回吧
+66_CollisionTips = 帮小狐狸抵挡来人的攻击，不要走太远哦！

@@ -1,0 +1,12 @@
+9_CollisionTips = 左右护法设下禁止，禁制通行！
+3_CollisionTips = 左右护法设下禁止，禁制通行！
+8_CollisionTips = 需先击杀左右护法
+14_CollisionTips = 还有邪宗余孽残留！
+10_CollisionTips = 左右护法设下禁止，禁制通行！
+4_CollisionTips = 关飞火设下禁制，无法离开！
+7_CollisionTips = 大殿入口已被封印，禁止通行！
+11_CollisionTips = 左右护法设下禁止，禁制通行！
+12_CollisionTips = 左右护法设下禁止，禁制通行！
+5_CollisionTips = 雷燚设下禁制，无法离开！
+1_CollisionTips = 除恶务尽，请少侠继续前进！
+2_CollisionTips = 除恶务尽，请少侠继续前进！

@@ -1,0 +1,4 @@
+42_CollisionTips = 时间紧迫，快跟紧库莘！
+36_CollisionTips = 眼前有人被戾妖围攻，不可视而不见！
+37_CollisionTips = 当务之急是激活剑阵，一举击溃戾妖，莫要因小失大！
+38_CollisionTips = 必须尽速前往据点内商量对策，莫要贪恋战场！

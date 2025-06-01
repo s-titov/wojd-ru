@@ -4,6 +4,9 @@
 math NO_TAIL_INFO = 0   # set it to 1 for archives with corrupt/missing tail information (extract without index)
 math VERSION = 3        # set it to 3 if NO_TAIL_INFO = 1 for most of modern games
 
+# Extension filtering configuration - set FILTER_EXTENSIONS to 1 to enable filtering
+math FILTER_EXTENSIONS = 1
+
 quickbmsver "0.12"
 callfunction QUICKBMS_4GB_CHECK 1
 
@@ -18,6 +21,7 @@ math BASE_PATH_INCLUDED = 1
 math DIR_FLAG = 1
 math NAME_FROM_ARRAY = 0
 math SKIP_COUNT = 0
+math EXTENSION_FILTERED_COUNT = 0
 
 get ARCHIVE_NAME basename
 get ARCHIVE_PATH FILEPATH
@@ -94,6 +98,7 @@ for i = 0 < FILES
 	if NAME = ""
 		continue NEXT0
 	endif
+
 	savepos TMP_OFF TOC_FILE
 	
 	get OFFSET longlong TOC_FILE
@@ -101,10 +106,6 @@ for i = 0 < FILES
 	get SIZE longlong TOC_FILE
 	get ZIP long TOC_FILE
     getdstring HASH 20 TOC_FILE
-
-    if SIZE > 30000000 # 30mb
-        continue NEXT0
-    endif
 	
     math CHUNKS = 0
     math ENCRYPTED = 0
@@ -131,7 +132,15 @@ for i = 0 < FILES
 	callfunction COMPRESSION_TYPE 1
 
     if CHUNKS > 0
-        log NAME 0 0
+        if FILTER_EXTENSIONS != 0
+            callfunction CHECK_FILE_EXTENSION 1
+            if EXTENSION_MATCHES == 1
+                log NAME 0 0
+            else
+                math EXTENSION_FILTERED_COUNT + 1
+            endif
+        endif
+
         append
         math TMP_SIZE = SIZE
 		if CHUNK_OFFSET_ABSOLUTE < 0 && OFFSET != 0
@@ -157,12 +166,17 @@ for i = 0 < FILES
             endif
             math CHUNK_OFFSET = OFFSET
 
-			if ZIP == 0
-				log NAME CHUNK_OFFSET CHUNK_SIZE 0 CHUNK_XSIZE	
-			else
-				clog NAME CHUNK_OFFSET CHUNK_ZSIZE CHUNK_SIZE 0 CHUNK_XSIZE
-			endif			
-			
+            if FILTER_EXTENSIONS != 0
+                callfunction CHECK_FILE_EXTENSION 1
+                if EXTENSION_MATCHES == 1
+                    if ZIP == 0
+                        log NAME CHUNK_OFFSET CHUNK_SIZE 0 CHUNK_XSIZE
+                    else
+                        clog NAME CHUNK_OFFSET CHUNK_ZSIZE CHUNK_SIZE 0 CHUNK_XSIZE
+                    endif
+                endif
+            endif
+
             math TMP_SIZE - CHUNK_SIZE
 			math OFFSET + CHUNK_XSIZE
         next x
@@ -182,8 +196,15 @@ for i = 0 < FILES
         endif	
 		if ZIP == 0
 			math BLOCK = 0x40000000
-			xmath FSIZE "OFFSET + ZSIZE" 
-			log NAME 0 0
+			xmath FSIZE "OFFSET + ZSIZE"
+			if FILTER_EXTENSIONS != 0
+                callfunction CHECK_FILE_EXTENSION 1
+                if EXTENSION_MATCHES == 1
+                    log NAME 0 0
+                else
+                    math EXTENSION_FILTERED_COUNT + 1
+                endif
+            endif
 			append
 			for OFFSET = OFFSET < FSIZE
 				xmath DIFF "FSIZE - OFFSET"
@@ -192,15 +213,32 @@ for i = 0 < FILES
 					if ENCRYPTED != 0
 						math XSIZE x 16
 					endif
-					log NAME OFFSET DIFF 0 XSIZE
+                    if FILTER_EXTENSIONS != 0
+                        callfunction CHECK_FILE_EXTENSION 1
+                        if EXTENSION_MATCHES == 1
+                            log NAME OFFSET DIFF 0 XSIZE
+                        endif
+                    endif
 				else
-					log NAME OFFSET BLOCK
+				    if FILTER_EXTENSIONS != 0
+                        callfunction CHECK_FILE_EXTENSION 1
+                        if EXTENSION_MATCHES == 1
+                            log NAME OFFSET BLOCK
+                        endif
+                    endif
 				endif
 				math OFFSET + BLOCK
 			next
 			append
 		else
-			clog NAME OFFSET ZSIZE SIZE 0 XSIZE
+		    if FILTER_EXTENSIONS != 0
+                callfunction CHECK_FILE_EXTENSION 1
+                if EXTENSION_MATCHES == 1
+                    clog NAME OFFSET ZSIZE SIZE 0 XSIZE
+                else
+                    math EXTENSION_FILTERED_COUNT + 1
+                endif
+            endif
 		endif
     endif
     encryption "" ""
@@ -244,6 +282,10 @@ for i = 0 < SKIP_COUNT
 	getarray NAME 7 i
 	print "Ignored entry: %NAME%"
 next i
+
+if FILTER_EXTENSIONS != 0
+	print "Files filtered by extension: %EXTENSION_FILTERED_COUNT%"
+endif
 
 startfunction SET_AES_KEY_ASK
     math AES_KEY_IS_SET = 1
@@ -406,5 +448,35 @@ startfunction QUICKBMS_4GB_CHECK
     if TMP64 == 0
         print "You must use quickbms_4gb_files.exe with this script!"
         cleanexit
+    endif
+endfunction
+
+startfunction CHECK_FILE_EXTENSION
+    # Extract file extension from NAME using string operations
+    set EXTENSION_MATCHES long 0
+    
+    # Convert filename to lowercase for case-insensitive matching
+    string NAME_LOWER l NAME
+    set REPLACED_NAME string NAME_LOWER
+
+    string REPLACED_NAME R ".txt" ""
+    if NAME_LOWER != REPLACED_NAME
+        set EXTENSION_MATCHES long 1
+    endif
+
+    string REPLACED_NAME R ".locres" ""
+    if NAME_LOWER != REPLACED_NAME
+        set EXTENSION_MATCHES long 1
+    endif
+
+    string REPLACED_NAME R ".json" ""
+    if NAME_LOWER != REPLACED_NAME
+        set EXTENSION_MATCHES long 1
+    endif
+
+    set PREV_REPLACED_NAME string REPLACED_NAME
+    string REPLACED_NAME R ".gdv" ""
+    if PREV_REPLACED_NAME != REPLACED_NAME
+        set EXTENSION_MATCHES long 0
     endif
 endfunction
