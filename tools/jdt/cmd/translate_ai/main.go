@@ -58,10 +58,6 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	translationsCount := 0
 	alreadyTranslated := map[string]string{}
 	for scanner.Scan() {
-		if translationsCount >= translationsLimit {
-			break
-		}
-
 		line := scanner.Text()
 
 		// transfer as is
@@ -87,6 +83,10 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 				if translate, ok = alreadyTranslated[value]; ok {
 					value = translate
 				} else {
+					if translationsCount >= translationsLimit {
+						break
+					}
+
 					translate, err = chatGPT.Translate(ctx, value)
 					alreadyTranslated[value] = translate
 					value = translate
