@@ -54,7 +54,7 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	)
 
 	scanner := bufio.NewScanner(file)
-	translationsLimit := 100
+	translationsLimit := 1000
 	translationsCount := 0
 	alreadyTranslated := map[string]string{}
 	for scanner.Scan() {
