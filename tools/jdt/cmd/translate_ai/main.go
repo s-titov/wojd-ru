@@ -10,6 +10,8 @@ import (
 	"unicode"
 
 	"github.com/schollz/progressbar/v3"
+
+	"translate_ai/adapter"
 )
 
 func main() {
@@ -25,7 +27,7 @@ func main() {
 }
 
 func translateTxtByAI(ctx context.Context, filePath string) error {
-	//chatGPT := adapter.NewAdapter()
+	chatGPT := adapter.NewAdapter()
 
 	var tempFile *os.File
 
@@ -84,13 +86,12 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 						break
 					}
 
-					value = value + " //TODO: Translate"
-					//translate, err = chatGPT.Translate(ctx, value)
-					//if err != nil {
-					//	return err
-					//}
-					//alreadyTranslated[value] = translate
-					//value = translate
+					translate, err = chatGPT.Translate(ctx, value)
+					if err != nil {
+						return err
+					}
+					alreadyTranslated[value] = translate
+					value = translate
 					translationsCount++
 				}
 			}
@@ -115,10 +116,10 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	}
 
 	// rewrite original file
-	err = os.Rename(tempPath, file.Name())
-	if err != nil {
-		return err
-	}
+	//err = os.Rename(tempPath, file.Name())
+	//if err != nil {
+	//	return err
+	//}
 
 	return err
 }
