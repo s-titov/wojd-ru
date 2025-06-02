@@ -10,8 +10,6 @@ import (
 	"unicode"
 
 	"github.com/schollz/progressbar/v3"
-
-	"translate_ai/adapter"
 )
 
 func main() {
@@ -27,11 +25,10 @@ func main() {
 }
 
 func translateTxtByAI(ctx context.Context, filePath string) error {
-	chatGPT := adapter.NewAdapter()
+	//chatGPT := adapter.NewAdapter()
 
 	var tempFile *os.File
 
-	// match to translate
 	file, err := os.Open(filePath)
 	if err != nil {
 		return err
@@ -54,7 +51,7 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	)
 
 	scanner := bufio.NewScanner(file)
-	translationsLimit := 1000
+	translationsLimit := 6000
 	translationsCount := 0
 	alreadyTranslated := map[string]string{}
 	for scanner.Scan() {
@@ -87,14 +84,15 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 						break
 					}
 
-					translate, err = chatGPT.Translate(ctx, value)
-					alreadyTranslated[value] = translate
-					value = translate
+					value = value + " //TODO: Translate"
+					//translate, err = chatGPT.Translate(ctx, value)
+					//if err != nil {
+					//	return err
+					//}
+					//alreadyTranslated[value] = translate
+					//value = translate
 					translationsCount++
 				}
-			}
-			if err != nil {
-				return err
 			}
 
 			newLine := fmt.Sprintf("%s = %s\n", key, value)
@@ -117,10 +115,10 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	}
 
 	// rewrite original file
-	//err = os.Rename(tempPath, file.Name())
-	//if err != nil {
-	//	return err
-	//}
+	err = os.Rename(tempPath, file.Name())
+	if err != nil {
+		return err
+	}
 
 	return err
 }

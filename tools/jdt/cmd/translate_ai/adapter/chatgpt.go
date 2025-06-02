@@ -28,7 +28,7 @@ func NewAdapter() Adapter {
 	client := resty.New()
 	client.
 		SetBaseURL(openaiURL).
-		SetAuthToken(os.Getenv("TOKEN")). // Обязательно установи переменную окружения TOKEN
+		SetAuthToken(os.Getenv("TOKEN")).
 		SetHeader("Accept", "application/json").
 		SetHeader("Content-Type", "application/json").
 		SetRateLimiter(rate.NewLimiter(rate.Every(interval), 10))
@@ -38,7 +38,6 @@ func NewAdapter() Adapter {
 	}
 }
 
-// Translate переводит одну строку с китайского на русский
 func (a *adapter) Translate(ctx context.Context, text string) (string, error) {
 	reqBody := ChatRequest{
 		Model: model,
