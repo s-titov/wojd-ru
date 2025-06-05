@@ -19,11 +19,13 @@ $enLocresOrig = Join-Path $unpackedDir "\ZhuxianClient\gamedata\client\ZCTransla
 $ruLocresOrig = Join-Path $unpackedDir "\ZhuxianClient\gamedata\client\ZCTranslateData\Game\ru\Game.locres"
 
 $root = (Split-Path $PSScriptRoot -Parent)
-$locresPartsDir = Join-Path $root "patch\tw\Locres\parts"
+$locresDir = Join-Path $root "patch\tw\Locres"
+$locresPartsDir = Join-Path $locresDir "\parts"
 $hantLocresPatch = "$locresPartsDir\Hant.locres"
 $hansLocresPatch = "$locresPartsDir\Hans.locres"
 $enLocresPatch = "$locresPartsDir\En.locres"
 $ruLocresPatch = "$locresPartsDir\Ru.locres"
+$locresOriginal = Join-Path $locresDir "\OriginalGame.locres"
 
 function Get-FileHashValue {
     param (
@@ -87,11 +89,28 @@ if ($isChanged) {
 
     # rebuild locres
     Write-Host "Merging Locres to OriginalGame.locres..."
-    $locresOriginal = Join-Path $root "patch\tw\Locres\OriginalGame.locres"
     & $unrealLocresExe merge "$locresOriginal" "$hantLocresPatch" -o $locresOriginal
     & $unrealLocresExe merge "$locresOriginal" "$hansLocresPatch" -o $locresOriginal
     & $unrealLocresExe merge "$locresOriginal" "$enLocresPatch" -o $locresOriginal
     & $unrealLocresExe merge "$locresOriginal" "$ruLocresPatch" -o $locresOriginal
 
-    Write-Host "Locres successfully updated"
+    Write-Host "Unpacking OriginalGame.locres..."
+    $tempCsv = Join-Path $locresDir "\Temp.csv"
+    & $unrealLocresExe export "$locresOriginal" -f csv -o $tempCsv
+
+    Write-Host "Merging csv..."
+    $gameCsv = Join-Path $locresDir "\Game.csv"
+    go run jdt/cmd/merge_tw_csv.go $tempCsv $gameCsv
+
+    if ($ruLocresOrigHash -ne $ruLocresPatchHash) {
+        Write-Host "Russian locres changed, unpacking..."
+        & $unrealLocresExe export "$ruLocresOrig" -f csv -o $tempCsv
+
+        Write-Host "Transfer ru translates..."
+        go run jdt/cmd/transfer_tw_translate.go $tempCsv $gameCsv
+    }
+
+    if (Test-Path -Path $tempCsv -PathType Leaf) {
+        Remove-Item -Path $tempCsv -Force
+    }
 }
