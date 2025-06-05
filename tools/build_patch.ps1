@@ -19,12 +19,10 @@ if (-not $gamePath) {
     Write-Error "Не передан аргумент gamePath"
     exit 1
 }
-
 if (-not $version) {
     Write-Error "Не передан аргумент version"
     exit 1
 }
-
 if ($version -notin @("cn", "tw")) {
     Write-Error "Доступные version: cn, tw"
     exit 1
