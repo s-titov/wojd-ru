@@ -12,15 +12,20 @@ import (
 // ignore already translated rows without "tw-translate" comment
 
 func main() {
-	source := "patch/cn/Locres/GameTwRu.csv"
-	target := "patch/cn/Locres/Game.csv"
+	if len(os.Args) < 3 {
+		fmt.Println("Usage: program <source_csv> <target_csv>")
+		os.Exit(1)
+	}
 
-	translations, err := prepareTranslations(source)
+	srcCsv := os.Args[1]
+	targetCsv := os.Args[2]
+
+	translations, err := prepareTranslations(srcCsv)
 	if err != nil {
 		panic(err)
 	}
 
-	notTranslatedInc, err := translateTarget(target, translations)
+	notTranslatedInc, err := translateTarget(targetCsv, translations)
 	if err != nil {
 		panic(err)
 	}
