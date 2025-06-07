@@ -1,9 +1,0 @@
-{
-    "1": {
-        "text": "网络错误，下载当前录像失败！",
-        "metadata": {
-            "flags": "SHOWTYPE_MESSAGEBOX",
-            "note": "下载录像失败"
-        }
-    }
-}
