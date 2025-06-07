@@ -34,3 +34,8 @@ jobs:
           files: output/~Ru_Patch_P.pak
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+
+      - name: Zip PAK
+        run: |
+          cd output
+          zip Ru_Patch.zip "~Ru_Patch_P.pak"
