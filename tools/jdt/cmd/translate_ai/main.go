@@ -5,6 +5,7 @@ import (
 	"context"
 	"fmt"
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 	"unicode"
@@ -14,13 +15,34 @@ import (
 	"translate_ai/adapter"
 )
 
+var alreadyTranslated = map[string]string{}
+var bar = progressbar.NewOptions(-1,
+	progressbar.OptionSetDescription("Translating rows"),
+	progressbar.OptionShowCount(),
+	progressbar.OptionSetElapsedTime(true),
+	progressbar.OptionSetPredictTime(false),
+	progressbar.OptionThrottle(100*time.Millisecond),
+)
+
 func main() {
 	ctx := context.Background()
 
-	fileToTranslate := "patch/tw/~Ru_Patch_P/ZhuxianClient/gamedata/client/FormatString/ai.txt"
-	err := translateTxtByAI(ctx, fileToTranslate)
+	path := "patch/tw/~Ru_Patch_P/ZhuxianClient/gamedata/client/FormatString/LoadingTips"
+	info, err := os.Stat(path)
 	if err != nil {
 		panic(err)
+	}
+
+	if !info.IsDir() {
+		err = translateTxtByAI(ctx, path)
+		if err != nil {
+			panic(err)
+		}
+	} else {
+		err = translateDirByAI(ctx, path)
+		if err != nil {
+			panic(err)
+		}
 	}
 
 	fmt.Println("Successfully translated")
@@ -44,18 +66,7 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	}
 	defer func() { _ = tempFile.Close() }()
 
-	bar := progressbar.NewOptions(-1,
-		progressbar.OptionSetDescription("Translating rows"),
-		progressbar.OptionShowCount(),
-		progressbar.OptionSetElapsedTime(true),
-		progressbar.OptionSetPredictTime(false),
-		progressbar.OptionThrottle(100*time.Millisecond),
-	)
-
 	scanner := bufio.NewScanner(file)
-	translationsLimit := 6000
-	translationsCount := 0
-	alreadyTranslated := map[string]string{}
 	for scanner.Scan() {
 		line := scanner.Text()
 
@@ -82,17 +93,12 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 				if translate, ok = alreadyTranslated[value]; ok {
 					value = translate
 				} else {
-					if translationsCount >= translationsLimit {
-						break
-					}
-
 					translate, err = chatGPT.Translate(ctx, value)
 					if err != nil {
 						return err
 					}
 					alreadyTranslated[value] = translate
 					value = translate
-					translationsCount++
 				}
 			}
 
@@ -116,10 +122,29 @@ func translateTxtByAI(ctx context.Context, filePath string) error {
 	}
 
 	// rewrite original file
-	//err = os.Rename(tempPath, file.Name())
-	//if err != nil {
-	//	return err
-	//}
+	err = os.Rename(tempPath, file.Name())
+	if err != nil {
+		return err
+	}
+
+	return err
+}
+
+func translateDirByAI(ctx context.Context, dirPath string) error {
+	err := filepath.Walk(dirPath, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if !info.IsDir() {
+			if filepath.Ext(path) == ".txt" {
+				err = translateTxtByAI(ctx, path)
+				if err != nil {
+					return err
+				}
+			}
+		}
+		return nil
+	})
 
 	return err
 }
