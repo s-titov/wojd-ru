@@ -474,6 +474,11 @@ startfunction CHECK_FILE_EXTENSION
         set EXTENSION_MATCHES long 1
     endif
 
+    string REPLACED_NAME R ".ufont" ""
+    if NAME_LOWER != REPLACED_NAME
+        set EXTENSION_MATCHES long 1
+    endif
+
     set PREV_REPLACED_NAME string REPLACED_NAME
     string REPLACED_NAME R ".gdv" ""
     if PREV_REPLACED_NAME != REPLACED_NAME
