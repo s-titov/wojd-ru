@@ -104,11 +104,19 @@ func translateTarget(targetCsv string, translations map[string]string) (int, err
 		if err == io.EOF {
 			break
 		}
-		if err != nil || len(record) < 3 {
+		if err != nil {
+			return 0, err
+		}
+
+		if len(record) < 3 {
+			err = writer.Write(record)
+			if err != nil {
+				return 0, err
+			}
 			continue
 		}
 		// if "target" column is empty or translated via TW ru locres
-		if record[2] == "" || record[3] == "tw-auto-translate" {
+		if record[2] == "" || (len(record) == 4 && record[3] == "tw-auto-translate") {
 			if val, ok := translations[record[0]]; ok {
 				// remove extra "?" from TW ru translate
 				if strings.Contains(val, "?") &&
