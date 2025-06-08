@@ -1,1 +1,1 @@
-35_CollisionTips = 先在附近探索吧，别走远了
+35_CollisionTips = Исследуй область

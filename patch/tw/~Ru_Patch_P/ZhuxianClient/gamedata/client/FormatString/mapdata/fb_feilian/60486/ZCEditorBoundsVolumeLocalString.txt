@@ -1,1 +1,1 @@
-3_CollisionTips = 戾气狂乱异常，无法前进
+3_CollisionTips = Хаос слишком силён

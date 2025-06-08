@@ -1,2 +1,2 @@
-35_CollisionTips = 先在附近探索吧，别走远了
-1_CollisionTips = 请先完成将心寄愿任务！
+35_CollisionTips = Исследуй ближайшие окрестности
+1_CollisionTips = Сначала выполни квест "Посвящение сердца"

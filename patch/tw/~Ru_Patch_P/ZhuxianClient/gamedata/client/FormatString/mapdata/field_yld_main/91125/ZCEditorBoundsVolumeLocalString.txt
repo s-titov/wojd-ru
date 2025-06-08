@@ -1,6 +1,6 @@
-1_CollisionTips = 雷霆之威，无法靠近
-6_CollisionTips = 雷霆之威，无法靠近
-3_CollisionTips = 雷霆之威，无法靠近
-4_CollisionTips = 雷霆之威，无法靠近
-5_CollisionTips = 雷霆之威，无法靠近
-2_CollisionTips = 雷霆之威，无法靠近。
+1_CollisionTips = Громовой гнев - не подойти
+6_CollisionTips = Громовой гнев - не подойти
+3_CollisionTips = Громовой гнев - не подойти
+4_CollisionTips = Громовой гнев - не подойти
+5_CollisionTips = Громовой гнев - не подойти
+2_CollisionTips = Громовой гнев - не подойти.

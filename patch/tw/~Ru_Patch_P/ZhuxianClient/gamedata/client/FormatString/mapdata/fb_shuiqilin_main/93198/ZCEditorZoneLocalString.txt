@@ -1,2 +1,2 @@
-16_WarningText = 您已进入禁飞区域
-13_WarningText = 您已进入禁飞区域
+16_WarningText = Вы в зоне запрета полетов
+13_WarningText = Вы в зоне запрета полетов

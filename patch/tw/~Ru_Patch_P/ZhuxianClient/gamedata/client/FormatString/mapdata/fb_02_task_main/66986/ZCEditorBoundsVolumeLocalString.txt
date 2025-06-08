@@ -1,1 +1,1 @@
-77_CollisionTips = 不要走太远哦~
+77_CollisionTips = Не уходи далеко~

@@ -1,2 +1,2 @@
-1_CollisionTips = 云浮仙居被无形结界保护，请勿远离结界范围。
-2_CollisionTips = 悬淙灵台被结界保护，请不要远离。
+1_CollisionTips = Юньфу: не покидать границы
+2_CollisionTips = Сюаньцун: оставаться в пределах

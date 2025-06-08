@@ -1,3 +1,3 @@
-3_CollisionTips = 前路漫漫，暂且请回吧
-5_CollisionTips = 不可怯战，速速迎敌！
-4_CollisionTips = 不可怯战，速速迎敌！
+3_CollisionTips = Дальний путь ждёт, но вернись
+5_CollisionTips = Не робей! В бой скорей!
+4_CollisionTips = Не робей! В бой скорей!

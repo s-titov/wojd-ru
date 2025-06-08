@@ -1,1 +1,1 @@
-4_WarningText = 您已进入禁飞区域
+4_WarningText = Вы в зоне запрета полётов
