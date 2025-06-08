@@ -20,6 +20,7 @@ $ruLocresOrig = Join-Path $unpackedDir "\ZhuxianClient\gamedata\client\ZCTransla
 
 $root = (Split-Path $PSScriptRoot -Parent)
 $locresDir = Join-Path $root "patch\tw\Locres"
+$originalLocresDir = Join-Path $root "original\tw\ZhuxianClient\Content\Localization\Game\zh-Hant"
 $locresPartsDir = Join-Path $locresDir "\parts"
 $hantLocresPatch = "$locresPartsDir\Hant.locres"
 $hansLocresPatch = "$locresPartsDir\Hans.locres"
@@ -93,10 +94,12 @@ if ($isChanged) {
     & $unrealLocresExe merge "$locresOriginal" "$hansLocresPatch" -o $locresOriginal
     & $unrealLocresExe merge "$locresOriginal" "$enLocresPatch" -o $locresOriginal
     & $unrealLocresExe merge "$locresOriginal" "$ruLocresPatch" -o $locresOriginal
+    Copy-Item -Path $locresOriginal -Destination $originalLocresDir/Game.locres -Force
 
     Write-Host "Unpacking OriginalGame.locres..."
     $tempCsv = Join-Path $locresDir "\Temp.csv"
     & $unrealLocresExe export "$locresOriginal" -f csv -o $tempCsv
+    Copy-Item -Path $tempCsv -Destination $originalLocresDir/Game.csv -Force
 
     Write-Host "Merging csv..."
     $gameCsv = Join-Path $locresDir "\Game.csv"
