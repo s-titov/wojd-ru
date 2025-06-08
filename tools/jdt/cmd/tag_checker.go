@@ -11,13 +11,13 @@ import (
 
 func main() {
 	srcCsv := "patch/tw/Locres/Game.csv"
-	err := checkTag(srcCsv)
+	err := checkLinkTag(srcCsv)
 	if err != nil {
 		panic(err)
 	}
 }
 
-func checkTag(srcCsv string) error {
+func checkLinkTag(srcCsv string) error {
 	file, err := os.Open(srcCsv)
 	if err != nil {
 		return err
@@ -59,14 +59,18 @@ func checkTag(srcCsv string) error {
 
 				if len(sourceMatches) != len(targetMatches) {
 					fmt.Println(fmt.Sprintf("qty not matched: %s", key))
+					continue
 				}
 
 				// сверяем, что линки матчатся с таргетом
 				for _, sourceMatch := range sourceMatches {
 					if !slices.Contains(targetMatches, sourceMatch) {
 						fmt.Println(fmt.Sprintf("Links not match: %s", key))
+						continue
 					}
 				}
+
+				// TODO: Проверить, что все линки в target закрыты (/Link)
 			}
 		}
 	}
