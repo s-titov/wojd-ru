@@ -42,20 +42,19 @@ func checkLinkTag(srcCsv string) error {
 		if err != nil {
 			return err
 		}
-		if len(record) < 2 {
+		if len(record) < 3 {
 			continue
 		}
 		key := record[0]
 		source := record[1]
 		target := record[2]
-
 		if target != "" {
-			re := regexp.MustCompile(`\(@@Link:[0-9]*\)`)
-			sourceMatches := re.FindAllString(source, -1)
+			reLinkOpen := regexp.MustCompile(`\(@@Link:[0-9]*\)`)
+			sourceMatches := reLinkOpen.FindAllString(source, -1)
 
 			// если в source есть Link
 			if len(sourceMatches) > 0 {
-				targetMatches := re.FindAllString(target, -1)
+				targetMatches := reLinkOpen.FindAllString(target, -1)
 
 				if len(sourceMatches) != len(targetMatches) {
 					fmt.Println(fmt.Sprintf("qty not matched: %s", key))
@@ -70,7 +69,11 @@ func checkLinkTag(srcCsv string) error {
 					}
 				}
 
-				// TODO: Проверить, что все линки в target закрыты (/Link)
+				reLinkClose := regexp.MustCompile(`\(/Link\)`)
+				targetCloseMatches := reLinkClose.FindAllString(target, -1)
+				if len(targetCloseMatches) != len(targetMatches) {
+					fmt.Println(fmt.Sprintf("(/Link) count incorrect: %s", key))
+				}
 			}
 		}
 	}
