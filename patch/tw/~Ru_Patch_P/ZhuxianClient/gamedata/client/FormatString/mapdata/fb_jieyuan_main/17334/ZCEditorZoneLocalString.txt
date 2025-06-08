@@ -1,1 +1,1 @@
-1_WarningText = 即将迷失
+1_WarningText = Теряюсь

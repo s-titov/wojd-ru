@@ -1,8 +1,8 @@
-83_CollisionTips = 你走得太远了
-54_CollisionTips = 道路被妖狐施法阻拦，无法前进
-81_CollisionTips = 雾气太浓无法前进
-45_CollisionTips = 你走得太远了
-31_CollisionTips = 这里被三尾的气息笼罩，无法前进
-43_CollisionTips = 这里被三尾的气息笼罩，无法前进
-67_CollisionTips = 这里被三尾的气息笼罩，无法前进
-96_CollisionTips = 前方被黑泥覆盖，无法前进。
+83_CollisionTips = Слишком далеко зашли
+45_CollisionTips = Слишком далеко зашли
+54_CollisionTips = Дорога запечатана магией лисы
+81_CollisionTips = Слишком густой туман
+31_CollisionTips = Зона под влиянием Сань Вэй
+43_CollisionTips = Зона под влиянием Сань Вэй
+67_CollisionTips = Зона под влиянием Сань Вэй
+96_CollisionTips = Путь заблокирован чёрной грязью

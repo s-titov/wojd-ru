@@ -1,1 +1,1 @@
-1_CollisionTips = 前路漫漫，仙友请折返吧！
+1_CollisionTips = Путь закрыт, поверните назад

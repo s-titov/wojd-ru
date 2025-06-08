@@ -1,3 +1,3 @@
-13_WarningText = 您已进入禁飞区域
-14_WarningText = 您已进入禁飞区域
-15_WarningText = 您已进入禁飞区域
+13_WarningText = Полёты запрещены
+14_WarningText = Полёты запрещены
+15_WarningText = Полёты запрещены

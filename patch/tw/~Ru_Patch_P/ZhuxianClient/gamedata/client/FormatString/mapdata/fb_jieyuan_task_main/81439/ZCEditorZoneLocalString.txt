@@ -1,1 +1,1 @@
-8_WarningText = 即将迷失
+8_WarningText = Теряю путь

@@ -1,8 +1,8 @@
-46_WarningText = 您已进入禁飞区域
-41_WarningText = 您已进入禁飞区域
-42_WarningText = 您已进入禁飞区域
-45_WarningText = 您已进入禁飞区域
-22_WarningText = 您已进入禁飞区域
-38_WarningText = 您已进入禁飞区域
-39_WarningText = 您已进入禁飞区域
-40_WarningText = 您已进入禁飞区域
+46_WarningText = Полёты запрещены
+41_WarningText = Полёты запрещены
+42_WarningText = Полёты запрещены
+45_WarningText = Полёты запрещены
+22_WarningText = Полёты запрещены
+38_WarningText = Полёты запрещены
+39_WarningText = Полёты запрещены
+40_WarningText = Полёты запрещены

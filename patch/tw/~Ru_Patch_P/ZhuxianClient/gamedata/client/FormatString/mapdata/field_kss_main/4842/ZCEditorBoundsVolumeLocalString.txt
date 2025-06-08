@@ -1,5 +1,5 @@
-72_CollisionTips = 前路漫漫，不可贸然前行
-73_CollisionTips = 前路漫漫，不可贸然前行
-74_CollisionTips = 前路漫漫，不可贸然前行
-67_CollisionTips = 前路漫漫，暂且请回吧！
-70_CollisionTips = 山腹狭小阴暗，另寻他路吧
+72_CollisionTips = Дальний путь - не спеши вперед
+73_CollisionTips = Дальний путь - не спеши вперед
+74_CollisionTips = Дальний путь - не спеши вперед
+67_CollisionTips = Путь далёк, вернись пока!
+70_CollisionTips = В горах тесно, ищи иной путь

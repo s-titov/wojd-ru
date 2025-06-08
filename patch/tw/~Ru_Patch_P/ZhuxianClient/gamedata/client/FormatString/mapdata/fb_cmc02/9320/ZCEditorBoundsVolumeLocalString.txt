@@ -1,2 +1,2 @@
-35_CollisionTips = 先在附近探索吧，别走远了
-5_CollisionTips = 请优先完成嘱托吧！
+35_CollisionTips = Исследуй ближайшие окрестности
+5_CollisionTips = Сначала выполни поручение!

@@ -1,8 +1,8 @@
-3_WarningText = 当前状态无法操作
-4_WarningText = 当前状态无法操作
-10_WarningText = 当前状态无法操作
-11_WarningText = 当前状态无法操作
-12_WarningText = 当前状态无法操作
-13_WarningText = 当前状态无法操作
-14_WarningText = 当前状态无法操作
-15_WarningText = 当前状态无法操作
+3_WarningText = Действие недоступно
+4_WarningText = Действие недоступно
+10_WarningText = Действие недоступно
+11_WarningText = Действие недоступно
+12_WarningText = Действие недоступно
+13_WarningText = Действие недоступно
+14_WarningText = Действие недоступно
+15_WarningText = Действие недоступно

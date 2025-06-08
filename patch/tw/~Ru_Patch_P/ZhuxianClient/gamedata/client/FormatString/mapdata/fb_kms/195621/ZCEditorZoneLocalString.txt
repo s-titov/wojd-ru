@@ -1,3 +1,3 @@
-8_ZoneName = 璇玑命星
-9_ZoneName = 璇玑命星
-7_ZoneName = 璇玑命星
+7_ZoneName = Звезда Сюаньцзи
+8_ZoneName = Звезда Сюаньцзи
+9_ZoneName = Звезда Сюаньцзи

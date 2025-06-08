@@ -1,1 +1,1 @@
-1_WarningText = 即將迷失
+1_WarningText = Теряю связь

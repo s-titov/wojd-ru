@@ -1,1 +1,1 @@
-5_WarningText = 即將迷失
+5_WarningText = Потеря ориентации

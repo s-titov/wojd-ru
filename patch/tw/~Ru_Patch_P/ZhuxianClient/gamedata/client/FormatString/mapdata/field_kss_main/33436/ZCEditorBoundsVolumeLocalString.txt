@@ -1,7 +1,7 @@
-72_CollisionTips = 前路漫漫，不可贸然前行
-73_CollisionTips = 前路漫漫，不可贸然前行
-74_CollisionTips = 前路漫漫，不可贸然前行
-67_CollisionTips = 前路漫漫，暂且请回吧！
-70_CollisionTips = 山腹狭小阴暗，另寻他路吧
-38_CollisionTips = 陆师姐独自一人离去，等她返回再与师兄们会合。
-36_CollisionTips = 炼血堂弟子用戾气构筑起了一道法阵，击退拦路的弟子，运转内力破开法阵！
+72_CollisionTips = Долог путь — не иди напролом
+73_CollisionTips = Долог путь — не иди напролом
+74_CollisionTips = Долог путь — не иди напролом
+67_CollisionTips = Долог путь — вернись пока!
+70_CollisionTips = В горах тесно, ищи иной путь
+38_CollisionTips = Учитель Лу ушла, ждите её возврата.
+36_CollisionTips = Прорви магический барьер силой ци!
