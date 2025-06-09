@@ -7,6 +7,7 @@ import (
 	"os"
 	"regexp"
 	"slices"
+	"strings"
 )
 
 func main() {
@@ -69,10 +70,22 @@ func checkLinkTag(srcCsv string) error {
 					}
 				}
 
+				// проверяем что все линки закрыты
 				reLinkClose := regexp.MustCompile(`\(/Link\)`)
 				targetCloseMatches := reLinkClose.FindAllString(target, -1)
 				if len(targetCloseMatches) != len(targetMatches) {
 					fmt.Println(fmt.Sprintf("(/Link) count incorrect: %s", key))
+					continue
+				}
+
+				// проверяем, что внутри линков нет других тегов
+				reContent := regexp.MustCompile(`\(@@Link:\d+\)(.*?)\(/Link\)`)
+				contents := reContent.FindAllStringSubmatch(target, -1)
+
+				for _, content := range contents {
+					if strings.Contains(content[1], "(#") {
+						fmt.Println(fmt.Sprintf("Unexpected tag inside link: %s", key))
+					}
 				}
 			}
 		}
