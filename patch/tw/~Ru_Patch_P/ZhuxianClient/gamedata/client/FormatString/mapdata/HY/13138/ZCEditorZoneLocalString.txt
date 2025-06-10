@@ -1,8 +1,8 @@
-130_WarningText = 即將迷失
-259_WarningText = 即將迷失
-260_WarningText = 即將迷失
-261_WarningText = 即將迷失
-127_WarningText = 即將迷失
-128_WarningText = 即將迷失
-218_WarningText = 即將迷失
-129_WarningText = 即將迷失
+30_WarningText = Потеря ориентации
+259_WarningText = Потеря ориентации
+260_WarningText = Потеря ориентации
+261_WarningText = Потеря ориентации
+127_WarningText = Потеря ориентации
+128_WarningText = Потеря ориентации
+218_WarningText = Потеря ориентации
+129_WarningText = Потеря ориентации

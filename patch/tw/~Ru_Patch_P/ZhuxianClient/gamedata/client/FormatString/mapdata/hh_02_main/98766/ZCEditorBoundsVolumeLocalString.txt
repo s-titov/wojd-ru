@@ -1,3 +1,3 @@
-3_CollisionTips = 前路漫漫，不可贸然前行！
-25_CollisionTips = 前方气机流转异常，无法通行
-29_CollisionTips = 别走远了，先去别处看看吧。
+3_CollisionTips = Дальний путь опасен, не идите!
+25_CollisionTips = Впереди аномалия, проход закрыт
+29_CollisionTips = Не уходите далеко, исследуйте другое
