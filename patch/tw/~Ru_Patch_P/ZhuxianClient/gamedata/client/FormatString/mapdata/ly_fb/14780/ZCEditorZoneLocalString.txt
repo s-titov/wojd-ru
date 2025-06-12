@@ -1,3 +1,3 @@
-64_WarningText = 您已进入禁飞区域
-65_WarningText = 您已进入禁飞区域
-63_WarningText = 您已进入禁飞区域
+64_WarningText = Зона запрета полётов
+65_WarningText = Зона запрета полётов
+63_WarningText = Зона запрета полётов

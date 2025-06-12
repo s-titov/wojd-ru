@@ -1,5 +1,5 @@
-78_WarningText = 您已進入禁飛區域
-77_WarningText = 您已進入禁飛區域
-6_WarningText = 您已进入禁飞区域
-81_WarningText = 下方混沌异常，速速离去
-136_WarningText = 您已进入禁飞区域
+78_WarningText = Вы вошли в запретную зону
+77_WarningText = Вы вошли в запретную зону
+6_WarningText = Вы вошли в запретную зону
+81_WarningText = Внизу аномальная зона, немедленно покиньте
+136_WarningText = Вы вошли в запретную зону

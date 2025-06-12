@@ -1,2 +1,2 @@
-85_CollisionTips = 前方水深，小心！
-26_CollisionTips = 我若不战而退，师父定会失望吧！
+85_CollisionTips = Глубоко! Осторожно!
+26_CollisionTips = Уйти без боя? Учитель разочаруется...

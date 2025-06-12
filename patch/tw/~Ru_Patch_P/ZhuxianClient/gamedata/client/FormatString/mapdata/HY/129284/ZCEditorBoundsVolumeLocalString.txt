@@ -1,2 +1,2 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-140_CollisionTips = 试炼教学进行中，还请专心。
+91_CollisionTips = Дальний путь подождит - вернитесь пока
+140_CollisionTips = Идёт обучение - сосредоточьтесь

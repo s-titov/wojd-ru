@@ -1,2 +1,2 @@
-1_CollisionTips = 受到神秘力量的阻挡，无法通过
-150_CollisionTips = 受到神秘力量的阻挡，无法通过
+1_CollisionTips = Таинственная сила блокирует путь
+150_CollisionTips = Таинственная сила блокирует путь

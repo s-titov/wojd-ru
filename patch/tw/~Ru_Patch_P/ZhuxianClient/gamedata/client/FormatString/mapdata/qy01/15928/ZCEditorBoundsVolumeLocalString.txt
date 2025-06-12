@@ -1,5 +1,6 @@
-88_CollisionTips = 请静待掌门与首座商议
-89_CollisionTips = 答题结算中，稍安勿躁
-90_CollisionTips = 答题结算中，稍安勿躁
-91_CollisionTips = 答题结算中，稍安勿躁
-52_CollisionTips = 前途漫漫，暂且请回吧！
+1_CollisionTips = Граница зоны
+88_CollisionTips = Ожидайте решения совета
+89_CollisionTips = Идёт подсчёт ответов
+90_CollisionTips = Идёт подсчёт ответов
+91_CollisionTips = Идёт подсчёт ответов
+52_CollisionTips = Дальнейший путь закрыт

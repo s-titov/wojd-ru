@@ -1,6 +1,6 @@
-C66192C9462F400A35FBC6BA83CB4572_NodeName = 青云山麓·风云事件
-C66192C9462F400A35FBC6BA83CB4572_SubTitle = 阳炎异动谋恶计
-C66192C9462F400A35FBC6BA83CB4572_Description = 前往阳炎真宗据点，阻止阳炎真宗使用戾气修炼
-9FE4CC504809C2D98D4B31BA08B8B0C5_Condition_0 = 破坏戾气核心
-9FE4CC504809C2D98D4B31BA08B8B0C5_Condition_1 = 消灭阳炎真宗弟子
-9FE4CC504809C2D98D4B31BA08B8B0C5_Condition_2 = 剩余时间
+C66192C9462F400A35FBC6BA83CB4572_NodeName = Подножие Цинъюньшаня · События
+C66192C9462F400A35FBC6BA83CB4572_SubTitle = Зловещие планы Янъянь
+C66192C9462F400A35FBC6BA83CB4572_Description = Отправьтесь в лагерь Янъянь, чтобы остановить их тёмные ритуалы
+9FE4CC504809C2D98D4B31BA08B8B0C5_Condition_0 = Уничтожить ядро скверны
+9FE4CC504809C2D98D4B31BA08B8B0C5_Condition_1 = Ликвидировать адептов Янъянь
+9FE4CC504809C2D98D4B31BA08B8B0C5_Condition_2 = Осталось времени

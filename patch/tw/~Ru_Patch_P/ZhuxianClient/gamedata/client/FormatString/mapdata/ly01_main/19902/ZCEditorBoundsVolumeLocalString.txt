@@ -1,1 +1,1 @@
-1_CollisionTips = 前路漫漫，不要贸然前行！
+1_CollisionTips = Дальний путь - не спеши вперед!

@@ -1,2 +1,2 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-162_CollisionTips = 快快制服发狂之人！
+91_CollisionTips = Путь долог, пока вернитесь обратно
+162_CollisionTips = Срочно усмирите безумца!

@@ -1,5 +1,5 @@
-DBDE9DD04FA7740FDFF779A159C68685_NodeName = 青云山麓·风云事件
-DBDE9DD04FA7740FDFF779A159C68685_SubTitle = 未得所求不愿回
-DBDE9DD04FA7740FDFF779A159C68685_Description = 收集散落在青云山麓中的炼物材料
-EA76DC364363BADC1CE21893A2B9C5AB_Condition_0 = 收集足够的炼物材料
-EA76DC364363BADC1CE21893A2B9C5AB_Condition_1 = 剩余时间
+DBDE9DD04FA7740FDFF779A159C68685_NodeName = Подножие Цинъюньшань · События
+DBDE9DD04FA7740FDFF779A159C68685_SubTitle = Без добычи не вернусь
+DBDE9DD04FA7740FDFF779A159C68685_Description = Соберите рассыпанные у подножья материалы для алхимии
+EA76DC364363BADC1CE21893A2B9C5AB_Condition_0 = Собрать достаточно материалов
+EA76DC364363BADC1CE21893A2B9C5AB_Condition_1 = Осталось времени

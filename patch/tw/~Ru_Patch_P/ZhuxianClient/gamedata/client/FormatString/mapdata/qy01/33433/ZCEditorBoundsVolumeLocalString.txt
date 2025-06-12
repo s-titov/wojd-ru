@@ -1,2 +1,2 @@
-97_CollisionTips = 比试中，不可轻举妄动
-96_CollisionTips = 比试中，不可轻举妄动
+97_CollisionTips = Не мешайте поединку
+96_CollisionTips = Не мешайте поединку
