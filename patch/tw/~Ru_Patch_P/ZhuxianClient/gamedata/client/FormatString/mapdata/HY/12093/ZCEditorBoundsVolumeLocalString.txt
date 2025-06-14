@@ -1,1 +1,1 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
+91_CollisionTips = Дальний путь, вернись пока

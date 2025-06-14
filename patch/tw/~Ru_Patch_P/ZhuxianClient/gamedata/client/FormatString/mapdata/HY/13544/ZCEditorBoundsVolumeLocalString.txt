@@ -1,2 +1,2 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-75_CollisionTips = 不要走太远哦
+91_CollisionTips = Дальний путь, вернись
+75_CollisionTips = Не заходи далеко

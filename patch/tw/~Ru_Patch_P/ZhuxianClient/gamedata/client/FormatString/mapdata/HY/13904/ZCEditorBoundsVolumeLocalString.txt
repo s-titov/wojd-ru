@@ -1,2 +1,2 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-129_CollisionTips = 全力击败饕餮！
+91_CollisionTips = Дальний путь - вернись пока
+129_CollisionTips = Уничтожь ненасытного Таоте!

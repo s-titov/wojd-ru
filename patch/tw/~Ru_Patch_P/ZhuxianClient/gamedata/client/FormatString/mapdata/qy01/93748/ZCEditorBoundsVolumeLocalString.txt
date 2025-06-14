@@ -1,1 +1,1 @@
-94_CollisionTips = 时间紧迫，惊羽之事要紧
+94_CollisionTips = Время дорого - спешите к Цзин Юй

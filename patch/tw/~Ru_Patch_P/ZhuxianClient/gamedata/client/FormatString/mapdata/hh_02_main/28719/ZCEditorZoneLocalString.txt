@@ -1,4 +1,4 @@
-10_WarningText = 您已進入禁飛區域
-29_WarningText = 您已進入禁飛區域
-4_WarningText = 您已進入禁飛區域
-5_WarningText = 您已進入禁飛區域
+10_WarningText = Зона запрета полётов
+29_WarningText = Зона запрета полётов
+4_WarningText = Полёты запрещены
+5_WarningText = Полёты запрещены

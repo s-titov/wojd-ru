@@ -1,3 +1,3 @@
-92_WarningText = 下方混沌异常，速速离去
-214_WarningText = 水深勿入！
-213_WarningText = 水深勿入！
+92_WarningText = Опасная зона - немедленно покиньте
+214_WarningText = Глубоко! Не входить!
+213_WarningText = Глубоко! Не входить!

@@ -1,2 +1,2 @@
-35_CollisionTips = 前路漫漫，不可贸然前行！
-1_CollisionTips = 还是完成当前的委托吧
+35_CollisionTips = Путь долог, не идите напролом!
+1_CollisionTips = Лучше закончите текущее поручение

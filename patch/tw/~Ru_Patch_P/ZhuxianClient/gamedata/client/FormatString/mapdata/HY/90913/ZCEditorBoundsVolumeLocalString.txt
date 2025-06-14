@@ -1,2 +1,2 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-102_CollisionTips = 碧瑶设置了结界
+91_CollisionTips = Дальний путь ждёт - пока вернитесь
+102_CollisionTips = Бияо создала барьер

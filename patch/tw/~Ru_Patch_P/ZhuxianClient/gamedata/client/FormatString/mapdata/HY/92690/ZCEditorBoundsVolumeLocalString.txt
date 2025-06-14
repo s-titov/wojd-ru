@@ -1,3 +1,3 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-144_CollisionTips = 戾魔未除，请勿离开！
-139_CollisionTips = 师兄还有话想说，快回去吧，莫让师兄久等。
+91_CollisionTips = Дальний путь подождёт - вернитесь пока
+144_CollisionTips = Не уходите - демоны не побеждены!
+139_CollisionTips = Старший брат ждёт - поспешите назад

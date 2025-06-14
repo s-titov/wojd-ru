@@ -1,4 +1,4 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-138_CollisionTips = 小心落水！
-93_CollisionTips = 小心落水！
-133_CollisionTips = 孟尘缨所创造回忆结界，不可突破！
+91_CollisionTips = Дальний путь ждёт - пока вернитесь
+138_CollisionTips = Осторожно, глубокая вода!
+93_CollisionTips = Осторожно, глубокая вода!
+133_CollisionTips = Граница воспоминаний Мэн Чэньина - непроходима!

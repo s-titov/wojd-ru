@@ -1,3 +1,3 @@
-6_WarningText = 您已进入禁飞区域
-2_WarningText = 您已进入禁飞区域
-3_WarningText = 您已进入禁飞区域
+6_WarningText = Вы в зоне запрета полётов
+2_WarningText = Вы в зоне запрета полётов
+3_WarningText = Вы в зоне запрета полётов

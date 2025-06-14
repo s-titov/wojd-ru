@@ -1,2 +1,2 @@
-91_CollisionTips = 前路漫漫，暂且请回吧
-135_CollisionTips = 先忙完此处事务再离去吧
+91_CollisionTips = Дальний путь ждёт - пока вернитесь
+135_CollisionTips = Закончите дела здесь прежде чем идти

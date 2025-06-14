@@ -1,5 +1,5 @@
-92_CollisionTips = 目前修为有限，前方危险，请勿靠近！
-6_CollisionTips = 不要走远，先砍完黑节竹！
-70_CollisionTips = 还是帮师姐望风吧，不要进去了
-74_CollisionTips = 【猴儿难缠，看来得先请师姐帮忙，再一同追赶】
-76_CollisionTips = 【猴儿顽劣，若不赶紧追上，他可就要跑远了】
+92_CollisionTips = Уровень недостаточен - опасно!
+6_CollisionTips = Сначала срубите бамбук!
+70_CollisionTips = Лучше остаться на страже
+74_CollisionTips = Обезьяны мешают - нужна помощь
+76_CollisionTips = Обезьяна убегает - догоняйте!

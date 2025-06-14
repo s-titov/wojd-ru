@@ -1,2 +1,2 @@
-92_WarningText = 下方混沌异常，速速离去
-246_WarningText = 您已從高處墜落！
+92_WarningText = Внизу хаос - немедленно уйдите
+246_WarningText = Падение с высоты!
